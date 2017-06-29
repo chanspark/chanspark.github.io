@@ -25,16 +25,16 @@ Minima 를 찾는다면 각종 테마 관련 폴더, 디렉토리를 현재 설�
 ### 루비 업그레이드
 버전을 확있했나요? 2.1 버전 이상이면 더이상의 뻘짓은 무의미 하므로 이 부분은 읽지 않아도 됩니다. 맥OS에 루비를 업그레이드 하는 방법은 여러 방법이 있는데 (RVM, rbenv 등등) rbenv를 사용하는게 훨씬 편한거 같아서 그걸 사용해 보았습니다. [Exteremely Normal Blog](https://zunonia.wordpress.com/2014/03/19/mac에서-ruby-개발-환경-준비하기/)에서 아주 자세히 rbenv를 사용하는 방법을 적어주셨으니 참고하시기 바랍니다. 제 맥에서는 2.3.4버전 설치가 안되서 2.2.7 버전으로 업그레이드 하는데 성공하였습니다 허허허헣
 
-> rbenv versions 를 통해서 설치된 ruby 버전을 확인, 그 후 rbenv global x.x.x 를 통해서 적용하고 싶은 ruby 버전으로 변경할 수 있습니다. ruby --version 에서는 그대로 시스템 버전이 나오지만 rbenv를 통해 설치한 버전이 제대로 실행되는 것을 확인 할 수 있었습니다.
+rbenv versions 를 통해서 설치된 ruby 버전을 확인, 그 후 rbenv global x.x.x 를 통해서 적용하고 싶은 ruby 버전으로 변경할 수 있습니다. `ruby --version` 에서는 그대로 시스템 버전이 나오지만 rbenv를 통해 설치한 버전이 제대로 실행되는 것을 확인 할 수 있었습니다.
 
 ## jekyll-seo-tag
-어쩌다보니 테마보다 플러그인을 먼저 설치하게 되었습니다. (사실 위 루비 업그레이드도 이거 때문에 하게 됨...) SEO를 자동으로 설정해주는 플러그인인데 요즘 회사일로 SEO의 중요성을 체감하게 된지라 얼른 설치를 해보았습니다. [깃 허브 사이트](https://github.com/jekyll/jekyll-seo-tag) 에서 플러그인 설치법과 옵션을 확인 할 수 있습니다. 문서에는 안나와있지만 플러그인을 설치하려면 먼저 ruby gem 을 설치해야하는데, 터미널에 `gem install jekyll-seo-tag`를 입력하면 설치가 진행됩니다. 개인적으로는 설치가 끝난 후 
+어쩌다보니 테마보다 플러그인을 먼저 설치하게 되었습니다. (사실 위 루비 업그레이드도 이거 때문에 하게 됨...) SEO를 자동으로 설정해주는 플러그인인데 요즘 회사일로 SEO의 중요성을 체감하게 된지라 얼른 설치를 해보았습니다. [jekyll-seo-tag 깃 허브 사이트](https://github.com/jekyll/jekyll-seo-tag) 에서 플러그인 설치법과 옵션을 확인 할 수 있습니다. 문서에는 안나와있지만 플러그인을 설치하려면 먼저 ruby gem 을 설치해야하는데, 터미널에 `gem install jekyll-seo-tag`를 입력하면 설치가 진행됩니다. 개인적으로는 설치가 끝난 후 
 ```
 Done installing documentation for safe_yaml, rouge, forwardable-extended, pathutil, mercenary, liquid, kramdown, ffi, rb-inotify, rb-fsevent, listen, jekyll-watch, sass, jekyll-sass-converter, colorator, public_suffix, addressable, jekyll, jekyll-seo-tag after 45 seconds
 19 gems installed
 ```
-위 와 같은 결과 코드가 나왔는데 플러그인을 설치하면서 위에것도 같이 설치했나봅니다... 허허 한번 확인을 해봐야겠네요.
+위 와 같은 결과 코드가 나왔는데 플러그인을 설치하면서 다른 gem들도 같이 설치했나봅니다... 허허 한번 확인을 해봐야겠네요.
 
 ## 태깅 플러그인
 ## 카테고리? 설정
-## 브런치와 비슷한 포스트 사이트
+## 브런치와 비슷한 포스트 사이트를 만드려면?
