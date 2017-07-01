@@ -16,7 +16,7 @@
 title: chans blog
 email: pcswer@gmail.com
 description: "Chans 의 포트폴리오 및 블로그 사이트 입니다."
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 # url: ""
 url: "https://chanspark.github.io"
 author: "chans"
@@ -24,7 +24,7 @@ author: "chans"
 github_username:  chanspark
 timezone: Asia/Seoul
 
-asset_path: "/blog/assets/" # assets의 경로
+asset_path: "/assets/" # assets의 경로
 # asset_path: "/assets/" # assets의 경로
 image: ''
 
