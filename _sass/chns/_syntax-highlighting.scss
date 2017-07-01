@@ -4,9 +4,6 @@
 .highlight {
   background: #282c34;
   @extend %vertical-rhythm;
-  code {
-    background: #282c34;
-  }
 
   .highlighter-rouge & {
     background: #282c34;

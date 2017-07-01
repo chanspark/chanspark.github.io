@@ -17,8 +17,8 @@ title: chans blog
 email: pcswer@gmail.com
 description: "Chans 의 포트폴리오 및 블로그 사이트 입니다."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "/"
-# url: "https://chanspark.github.io"
+# url: ""
+url: "https://chanspark.github.io"
 author: "chans"
 # twitter_username: jekyllrb
 github_username:  chanspark
@@ -35,3 +35,17 @@ exclude:
   - Gemfile.lock
 gems: 
   - jekyll-seo-tag 
+
+
+# 태그 기능
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/
+
+defaults:
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
