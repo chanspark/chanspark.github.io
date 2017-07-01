@@ -22,6 +22,12 @@ url: "https://chanspark.github.io"
 author: "chans"
 # twitter_username: jekyllrb
 github_username:  chanspark
+timezone: Asia/Seoul
+
+asset_path: "/assets/" # assets의 경로
+image: ''
+
+keep_files: [assets]
 
 # jekyll-seo-tag options
 logo : "/assets/images/chans.png"
@@ -35,7 +41,7 @@ exclude:
   - Gemfile.lock
 gems: 
   - jekyll-seo-tag 
-
+#   - jekyll-autoprefixer
 
 # 태그 기능
 collections:

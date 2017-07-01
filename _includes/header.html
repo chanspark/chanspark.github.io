@@ -2,7 +2,8 @@
 
   <div class="fluid-wrapper">
     {% assign default_paths = site.pages | map: "path" %}{% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> {% if page_paths %}
+
+    <a class="site-title" href="{{ "/" | relative_url }}"><img src="{{ site.asset_path }}logo.png" alt="찬스 로고" class="site-logo">blog</a> {% if page_paths %}
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
