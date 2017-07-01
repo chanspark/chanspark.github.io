@@ -24,7 +24,8 @@ author: "chans"
 github_username:  chanspark
 timezone: Asia/Seoul
 
-asset_path: "/assets/" # assets의 경로
+asset_path: "/blog/assets/" # assets의 경로
+# asset_path: "/assets/" # assets의 경로
 image: ''
 
 keep_files: [assets]
