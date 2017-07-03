@@ -26,7 +26,7 @@ timezone: Asia/Seoul
 
 asset_path: "/assets/" # assets의 경로
 # asset_path: "/assets/" # assets의 경로
-image: ''
+image: '/assets/main_photo.jpg'
 
 keep_files: [assets]
 

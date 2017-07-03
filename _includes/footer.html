@@ -44,3 +44,38 @@
   </div>
 
 </footer>
+
+
+<script>
+    var $sidebar   = document.getElementById("site_header"), 
+        // $window    = window.document,
+        offset     = 250,
+        topPadding = 130;
+        // height = $("#scheduleBox").height();
+        // height = document.getElementById("site_header").offsetHeight;
+		// window.onscroll
+    window.onscroll = function(e) {
+		// console.log(e);
+		var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+		// console.log(scrollTop)
+        if (scrollTop > offset) {
+        // console.log(height);
+        // console.log(offset)
+        // console.log(offset.bottom)
+            // $sidebar.stop().animate({
+            //     // marginTop: $window.scrollTop() - offset.top + topPadding
+			// 	$sidebar.
+            // });
+			// $sidebar.className += " "
+			$sidebar.classList.remove("site-header-dark");
+        } else {
+			$sidebar.classList.add("site-header-dark");
+            // $sidebar.stop().animate({
+            //     // marginTop: 0
+            // });
+        }
+    };
+     //   if ($(window).width() > 470) {
+    // }
+
+</script>

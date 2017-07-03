@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "지킬 설치 후 맥 셋업"
+description: "깃허브 페이지와 지킬을 사용하기 위한 여러 삽질"
+author: chanspark
+image: "20170628-1-main.jpg"
 date:   2017-06-28 22:19:00 +0900
 categories: 포스트
 ---
-
-# 깃허브 페이지와 지킬을 사용하기 위한 맥 셋업
 
 지킬 테마를 수정하기 위해서 여러가지 삽질을 하였는데, 그 과정에 대해서 기록을 해 두려고 합니다. 깃허브 페이지 생성과 지킬을 연동시키는 방법에 대해서는 다른 포스트에 작성하도록 하겠습니다.
 
@@ -14,7 +15,7 @@ categories: 포스트
 
 1. 맥OS 가 설치되어있는 경로를 찾는다. 기본적으로 Macintosh HDD 또는 SSD 로 설정되어있다.
 2. 필자의 경우 설치되어있는 디스크 최상위 경로에 `usr` 폴더를 찾을 수 있었다.
-3. [지킬 공식 문서](https://jekyllrb.com/docs/themes/)에 따르면 Minima 의 경로는 `usr/local/lib/ruby/gems/2.x.x/gems/minima...` 이다. 2번에서 설명한 usr 폴더에서 잘 찾아 들어가다보면 찾을 수 있다.
+3. [지킬 공식 문서](https://jekyllrb.com/docs/themes/)에 따르면 Minima 의 경로는 `usr/local/lib/ruby/gems/2.x.x/gems/minima...` 이다. 2번에서 설명한 `usr` 폴더에서 잘 찾아 들어가다보면 찾을 수 있다.
 
 이걸 찾는다고 30분을 날려버렸다. ㅠㅠㅠㅠ 
 Minima 를 찾는다면 각종 테마 관련 폴더, 디렉토리를 현재 설치되어있는 지킬 폴더로 복사해오자.
