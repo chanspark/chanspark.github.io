@@ -108,13 +108,14 @@
     }
   }
 }
+
 // header state
 .site-header-dark {
   border-bottom: 0px solid transparent;
   background: transparent;
   .site-title {
     color: $color-white;
-    background-image: url("/assets/logo-white.png") !important;
+    background-image: url("/blog/assets/logo-white.png") !important;
   }
   .page-link {
     color: $color-white;
