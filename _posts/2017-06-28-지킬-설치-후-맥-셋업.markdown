@@ -34,7 +34,10 @@ rbenv versions 를 통해서 설치된 ruby 버전을 확인, 그 후 rbenv glob
 Done installing documentation for safe_yaml, rouge, forwardable-extended, pathutil, mercenary, liquid, kramdown, ffi, rb-inotify, rb-fsevent, listen, jekyll-watch, sass, jekyll-sass-converter, colorator, public_suffix, addressable, jekyll, jekyll-seo-tag after 45 seconds
 19 gems installed
 ```
-위 와 같은 결과 코드가 나왔는데 플러그인을 설치하면서 다른 gem들도 같이 설치했나봅니다... 허허 한번 확인을 해봐야겠네요.
+위 와 같은 결과 코드가 나왔는데 플러그인을 설치하면서 다른 gem들도 같이 설치했나봅니다... 허허 한번 확인을 해봐야겠네요. 
+
+## 지킬 실행
+
 
 ## 태깅 플러그인
 ## 카테고리? 설정

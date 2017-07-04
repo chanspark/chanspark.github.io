@@ -2,3 +2,37 @@
 layout: default
 --
 
+<div class="page-image" style="background-image: url('{{ site.baseurl }}{{ site.image }}')">
+</div>
+	<div class="wrapper">
+<div class="home">
+
+
+	<h1 class="page-heading">Tags</h1>
+
+	{{ content }}
+
+
+
+	<ul class="post-list-wrap">
+		{% for post in site.posts %}
+		<li class="post-list">
+			<!--<div>-->
+				{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+				<span class="post-meta">{{ post.date | date: date_format }}</span>
+
+				<h2>
+					<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+				</h2>
+				<div>
+					<p class="post-summary">{{ post.content | strip_html | truncatewords:30 }}</p>
+				</div>
+			<!--</div>-->
+		</li>
+		{% endfor %}
+	</ul>
+
+	<!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>-->
+
+</div>
+</div>
