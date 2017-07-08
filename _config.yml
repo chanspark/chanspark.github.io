@@ -56,3 +56,11 @@ defaults:
       type: tags
     values:
       layout: tag
+
+
+# Disqus
+disqus:
+  shortname: "chanspark-blog"
+
+#google analytics
+google_analytics: true

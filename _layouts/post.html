@@ -28,7 +28,14 @@ layout: default
   </div>
 
   <div class="post-footer">
-    <button class="btn btn-primary btn-lg post-btn " onclick="goBack();">목록으로 돌아가기</button>
+    {% for tag in page.tags %}
+      <a href="{{ site.baseurl }}/tags/{{ tag }}" class="btn btn-grey post-tag">{{ tag }}</a>
+    {% endfor %}
+    <div class="post-footer-nav">
+      <a href="#" class="fl-l"><span class="icon-arrow-left"></span> 돌아가기</a>
+      <a href="#" class="fl-r">다음 포스트 <span class="icon-arrow-right"></span></a>
+    </div>
+    <!--<button class="btn btn-primary btn-lg post-btn " onclick="goBack();">목록으로 돌아가기</button>-->
   </div>
 
   {% if site.disqus.shortname %}

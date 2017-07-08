@@ -1,45 +1,77 @@
-
 /**
  * Page content
  */
+
 .page-image {
-    width: 100%;
-    height: 450px;
-    margin-bottom: $spacing-unit;
-    background-size: cover;
-    background-position: center;
-    padding-top: 280px;
- }
+	width: 100%;
+	height: 450px;
+	margin-bottom: $spacing-unit;
+	background-size: cover;
+	background-position: center;
+	padding-top: 280px;
+}
+
 .page-content {
-//   padding: $spacing-unit;
-  padding-bottom: $spacing-unit * 3;
+	//   padding: $spacing-unit;
+	padding-bottom: $spacing-unit * 3;
 }
 
 .page-heading {
-  @include relative-font-size(1.25);
+	@include relative-font-size(1.25);
 }
 
 .post-list-wrap {
-  margin-left: 0;
-  list-style: none;
-
-  .post-list {
-      padding-bottom: $spacing-unit;
-    margin-bottom: $spacing-unit;
-    border-bottom: 1px solid $grey-color-light;
-  }
+	margin-left: 0;
+	list-style: none;
+	.post-list {
+		padding-bottom: $spacing-unit;
+		margin-bottom: $spacing-unit;
+		border-bottom: 1px solid $grey-color-light;
+	}
 }
 
 .post-meta {
-    -webkit-font-smoothing: antialiased;  
-  font-size: $small-font-size;
-  color: $grey-color;
-// color: $color-white;
+	-webkit-font-smoothing: antialiased;
+	font-size: $small-font-size;
+	color: $grey-color;
+	// color: $color-white;
+}
+
+.post-summary {
+	overflow: hidden;
+	margin-bottom: $spacing-unit * 1.5;
 }
 
 .post-link {
-  display: block;
-  @include relative-font-size(1.5);
+	display: block;
+	@include relative-font-size(1.5);
 }
 
+.post-tags {}
 
+.post-tag-title {
+	color: $color-subtext;
+	font-family: $title-font-family;
+	// font-style: italic;
+	margin-right: 10px;
+	// @include relative-font-size(0.9375);
+}
+
+.post-tag {
+	@extend .post-tag-title;
+	@include relative-font-size(0.9375);
+	margin-right: 3px;
+	font-family: $title-font-family;
+	font-style: normal;
+	display: inline-block;
+	line-height: 1;
+}
+
+.post-tag-link {
+	@include relative-font-size(0.9375);
+	font-family: $title-font-family;
+	color: $color-subtext;	
+	display: block;
+	line-height: 1;
+	// font-style: italic;
+}

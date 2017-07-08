@@ -5,7 +5,8 @@ description: "JS 초짜가 살아남는법"
 author: chanspark
 image: "20170630-1-main.jpg"
 date:   2017-06-30 11:30:00 +0900
-categories: 포스트
+tags: [jekyll, express, ajax]
+comments: true
 ---
 
 <!--# ExpressJS 에서 AJAX호출을 통한 EJS 템플릿 작성-->
@@ -30,7 +31,7 @@ router.get('/blogs/:slug', function(req, res, next) { // 'blogs/한글-URL-입�
 
 이렇게 전달받은 변수들을 토대로 마크업에 원하는 위치에 뿌려주면 됩니다.
 ```html
-
+?
 ```
 
 

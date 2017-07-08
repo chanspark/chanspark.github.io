@@ -1,20 +1,24 @@
 ---
 layout: post
-title:  "WILT 7월 4일"
-description: "XMLHttpRequest, AJAX, NPM"
+title:  "WILT 7월 6일 생존일기"
+description: ""
 author: chanspark
 image: "default.jpg"
-date:   2017-07-04 20:30:00 +0900
+date: 2017-07-06 09:30:00 +0900
 tags: [wilt]
 ---
 
-WILT(What I Learned Today)의 생존일기? 입니다. 작업하며 겪었던 에러 등을 해결하기 위한 고민의 흔적들을 저장하는 지극히 개인적인 포스트 입니다. 
+WILT(What I Learned Today)는 초급 개발자의 생존일기 입니다. 작업하며 겪었던 에러 등을 해결하기 위한 고민의 흔적들을 저장하는 지극히 개인적인 포스트 입니다. 
 
-## XMLHttpRequest(), AJAX
-서버와 정보를 주고 받기 위해 사용되는 기본적인 javascript 객체입니다. ajax와 동일한 기능을 한다고 볼 수 있습니다. 마이크로소프트에서 만든 만든 객체이며 현재는 웹에서 비동기적으로 데이터를 주고 받게 해주는 매우 중요한 역할을 하고 있습니다. 실제로 흔히 사용되는 ajax는 Asynchronous JavaScript and XML의 약자 입니다. 여기서 AJAX는 기본적으로 XML객체를 이용하는 통신이라는 것을 알 수 있습니다. 물론 XML만 사용하는게 아니라 JSON도 사용할 수 있다는데, 이에 대해서는 더 자세하게 알아보도록 하겠습니다. 오늘은 여기까지... ㅇㅅㅇ
 
-참고: [MDN - XMLHttpRequest](https://developer.mozilla.org/ko/docs/XMLHttpRequest), [생활코딩 - AJAX](https://opentutorials.org/course/1375/6843)
+## JS location.replace vs location.href
+[추천](http://www.opencode.co.kr/bbs/board.php?bo_table=javascript_tips&wr_id=62)
 
+## 오늘의 사이트
+[Git Book](https://www.gitbook.com/)
+[코드쓰는사람, Taegon](https://taegon.kim/archives/5678)
+
+<!--
 ## NPM
 Node.js 의 앱스토어라고 생각하면 된다. 그만큼 node 관련 모듈이 많이 저장되어 있고, 설치도 `npm install module-name` 으로 매우 쉽게 할 수 있습니다.
 
@@ -57,38 +61,6 @@ jekyll serve
 여전히 문제가 있기는 합니다. `bundle exec`을 붙이지 않고 `jekyll serve` 를 하면 위의 rb-fsevent 호환성 문제가 자꾸 나타나네요. 제 맥에서만 일어나는 문제일 수도 있습니다. ㅠㅠㅠㅠ 일단 에러코드에서도 'bundle exec 을 에러난 커맨드 앞에 붙이면 문제가 해결될 수 있습니다.' 라고 뜨는 걸 보니 너무 큰 문제는 아닌가 봅니다. 끗!
 
 ## 오늘의 사이트
-[면접 문제 은행](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Korean)
+[면접 문제 은행](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Korean)-->
 
-
-<!--
-회사 사이트에 마케팅을 위한 블로그 형식에 페이지가 있습니다. 마케팅을 위해서라면 SEO가 무엇보다 중요하기 때문에 블로그 페이지에서만이라도 각종 `meta` 태그를 적용시켜보기로 했습니다.
-우선 사이트가 express js 와 ejs 를 기반이기 때문에 템플릿 엔진으로 DOM을 구현하면 될것 같습니다.
-
-express js를 통해서 생성된 라우트 파일을 열어보면 블로그 관련 소스가 있습니다.
-```javascript
-router.get('/blogs/:slug', function(req, res, next) { // 'blogs/한글-URL-입니다' 로 접속할 경우 라우팅 함수에 들어옵니다.
-    var slug = req.params.slug; // slug 변수에 URL의 slug 파라미터를 할당합니다.
-    var _title = slug.replace(/-/g, " "); // title 태그에는 slug의 하이픈(-)을 제거해주고 변수로 할당합니다.
-    res.render('./sub/blogs-show', {  // blog-show.ejs  파일을 렌더링합니다.
-        // ejs 에서 사용하게 될 변수들
-        'slug': slug,
-        title : _title,
-        url : webUrl + "blogs/" + slug,
-        description : "description",
-    });
-}
-```
-
-이렇게 전달받은 변수들을 토대로 마크업에 원하는 위치에 뿌려주면 됩니다.
-```html
-
-```
-
-
-
-### SLUG?
-제 영역이 아닌지라 `slug`에 대해서도 알아봤습니다.
-
-
--->
 

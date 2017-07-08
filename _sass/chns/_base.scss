@@ -128,13 +128,14 @@ h6 {
  */
 
 a {
-	color: $brand-color;
+	color: inherit;
 	text-decoration: none;
 	// &:visited {
 	// 	// color: darken($brand-color, 15%);
 	// }
 	&:hover {
-		color: $text-color;
+		// color: $text-color;
+		color: inherit;
 		text-decoration: none;
 	}
 	.social-media-list &:hover {
@@ -174,6 +175,7 @@ code {
 	border-radius: 3px;
 	background-color: #282c34;
 	color: #abb2bf;
+	font-weight: 600;
 }
 
 code {
@@ -262,18 +264,33 @@ pre {
 	}
 }
 
+// states
+.fl-l {
+	float: left;
+}
 
+.fl-r {
+	float:right;
+}
+
+// btns
 .btn {
 	background-color: transparent;
-	border-width: 2px;
+	border-width: 1px;
 	border-style: solid;
-	border-radius: 5px;
+	border-radius: 15px;
+	border-color: $text-color;	
 	cursor: pointer;
-	display: block;
+	// display: block;
+	padding: 5px 10px;
 }
 
 .btn-primary {
 	border-color: $brand-color;
+}
+
+.btn-grey {
+	border-color: $color-subtext;
 }
 
 .btn-lg {
