@@ -3,19 +3,18 @@ layout: default
 ---
 
 <div class="page-image" style="background-image: url('{{ site.baseurl }}{{ site.image }}')">
+	 <!-- <h1 class="page-heading">Chans' Blog</h1>  -->
 </div>
 	<div class="wrapper">
 <div class="home">
 
 
-	<h1 class="page-heading">Chans' Blog</h1>
+     <h1 class="home-heading">프론트엔드 개발 블로그</h1> 
+      <div class="divider"></div>
 
 	{{ content }}
-
-
-
 	<ul class="post-list-wrap">
-		{% for post in site.posts %}
+		{% for post in paginator.posts %}
 		<li class="post-list">
 			<!--<div>-->
 				{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -35,15 +34,51 @@ layout: default
 						<a href="{{ site.baseurl }}/tags/{{ tag }}" class="btn btn-grey post-tag">{{ tag }}</a>
 					{% endfor %}
 						<!--<a class="btn btn-grey post-tag " href="{{ post.url | relative_url }}">Read <span class="icon-arrow-right"></span></a>-->
-					<!--<div class="fl-r">
-
-					</div>-->
 				</div>
 			<!--</div>-->
 		</li>
 		{% endfor %}
 	</ul>
-
+	<!-- Pagination links -->
+	<ul class="pagination" role="navigation">
+    {% if paginator %}
+        {% if paginator.total_pages <= 5 %}
+            {% assign first = 1 %}
+            {% assign last = paginator.total_pages %}
+        {% else %}
+            {% assign first = paginator.page | minus: 2 %}
+            {% if first < 1 %}
+                {% assign first = 1 %}
+            {% endif %}
+            {% assign last = first | plus: 4 %}
+            {% if last > paginator.total_pages %}
+                {% assign last = paginator.total_pages %}
+            {% endif %}
+        {% endif %}
+        {% if paginator.previous_page %}
+            <li id="page-prev" class="pagination-list"><a href="{{ site.baseurl }}{{ paginator.previous_page_path }}"><span class="icon-arrow-left"></span></a>
+            </li>
+        {% else %}
+            <li id="page-prev" class="pagination-list disabled"><span class="icon-arrow-left"></span></li>
+        {% endif %}
+        {% for p in (first..last) %}
+            {% if p == paginator.page %}
+                <li class="pagination-list page-number active btn btn-grey">{{ p }}</li>
+                {% elsif p == 1 %}
+                <li class="pagination-list page-number btn btn-grey"><a href="{{ site.baseurl }}/">{{ p }}</a></li>
+            {% else %}
+                <li class="pagination-list page-number btn btn-grey"><a
+                            href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', p }}">{{ p }}</a></li>
+            {% endif %}
+        {% endfor %}
+        {% if paginator.next_page %}
+            <li id="page-next" class="pagination-list"><a href="{{ site.baseurl }}{{ paginator.next_page_path }}"><span class="icon-arrow-right"></span></a>
+            </li>
+        {% else %}
+            <li id="page-next" class="pagination-list disabled"><span class="icon-arrow-right"></span></li>
+        {% endif %}
+    {% endif %}
+</ul>
 	<!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>-->
 
 </div>

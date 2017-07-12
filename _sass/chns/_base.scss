@@ -273,6 +273,13 @@ pre {
 	float:right;
 }
 
+.divider {
+	height: 1px;
+	background-color: $grey-color-light;
+	margin: $spacing-unit 0;
+}
+
+
 // btns
 .btn {
 	background-color: transparent;

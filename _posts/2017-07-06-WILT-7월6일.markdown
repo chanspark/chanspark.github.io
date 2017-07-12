@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "WILT 7월 6일 생존일기"
-description: ""
+title:  "WILT 7/6 location.replace"
+description: " "
 author: chanspark
 image: "default.jpg"
 date: 2017-07-06 09:30:00 +0900
 tags: [wilt]
+comments: true
 ---
 
 WILT(What I Learned Today)는 초급 개발자의 생존일기 입니다. 작업하며 겪었던 에러 등을 해결하기 위한 고민의 흔적들을 저장하는 지극히 개인적인 포스트 입니다. 

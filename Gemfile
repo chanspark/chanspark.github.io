@@ -28,3 +28,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "jekyll-seo-tag"  
 gem 'jekyll-autoprefixer'
+gem "jekyll-paginate"

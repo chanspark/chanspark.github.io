@@ -14,12 +14,12 @@ comments: true
 ## Minima
 지킬을 처음 설치하면 Minima 라는 기본 테마가 설치되어있습니다. 이 테마를 수정해서 블로그 테마를 구현할 생각으로 테마 원본 파일 `_layouts`, `_sass` 폴더를 한참동안 찾았었다..ㅂㄷㅂㄷ 참고로 저는 맥 사용자이므로 맥을 기준으로 포스트를 작성하고 있습니다 ㅇㅅㅇ
 
-1. 맥OS 가 설치되어있는 경로를 찾는다. 기본적으로 Macintosh HDD 또는 SSD 로 설정되어있다.
-2. 필자의 경우 설치되어있는 디스크 최상위 경로에 `usr` 폴더를 찾을 수 있었다.
-3. [지킬 공식 문서](https://jekyllrb.com/docs/themes/)에 따르면 Minima 의 경로는 `usr/local/lib/ruby/gems/2.x.x/gems/minima...` 이다. 2번에서 설명한 `usr` 폴더에서 잘 찾아 들어가다보면 찾을 수 있다.
+1. 맥OS 가 설치되어있는 경로를 찾습니다. 기본적으로 Macintosh HDD 또는 SSD 로 설정되어있어요.
+2. 필자의 경우 설치되어있는 디스크 최상위 경로에 `usr` 폴더를 찾을 수 있었습니다.
+3. [지킬 공식 문서](https://jekyllrb.com/docs/themes/)에 따르면 Minima는`usr/local/lib/ruby/gems/2.x.x/gems/minima...`에 있다고 합니다. 2번에서 설명한 `usr` 폴더에서 찾을 수 있습니다.
 
-이걸 찾는다고 30분을 날려버렸다. ㅠㅠㅠㅠ 
-Minima 를 찾는다면 각종 테마 관련 폴더, 디렉토리를 현재 설치되어있는 지킬 폴더로 복사해오자.
+이걸 찾는다고 30분을 날려버렸네요... ㅠㅠㅠㅠ 
+Minima 를 찾는다면 각종 테마 관련 폴더, 디렉토리를 현재 설치되어있는 지킬 폴더로 복사해오도록 합니다.
 
 ## Ruby 2.1++
 하... 위에 테마를 찾는다고 고생했는데 이번에는 [지킬에서 사용되는 templating language](https://jekyllrb.com/docs/templates/) 인 [Liquid](https://shopify.github.io/liquid/)가 루비 2.1 버전을 요구한다고 하는군요.. 필자의 맥에는 2.0버전대의 루비가 설치되어 있어서 업그레이드를 해줘야했습니다. 참고로 루비 버전을 확인하는 방법은 터미널에서 `ruby --version`을 입력하면 알 수 있습니다.
@@ -31,11 +31,13 @@ rbenv versions 를 통해서 설치된 ruby 버전을 확인, 그 후 rbenv glob
 
 ## jekyll-seo-tag
 어쩌다보니 테마보다 플러그인을 먼저 설치하게 되었습니다. (사실 위 루비 업그레이드도 이거 때문에 하게 됨...) SEO를 자동으로 설정해주는 플러그인인데 요즘 회사일로 SEO의 중요성을 체감하게 된지라 얼른 설치를 해보았습니다. [jekyll-seo-tag 깃 허브 사이트](https://github.com/jekyll/jekyll-seo-tag) 에서 플러그인 설치법과 옵션을 확인 할 수 있습니다. 문서에는 안나와있지만 플러그인을 설치하려면 먼저 ruby gem 을 설치해야하는데, 터미널에 `gem install jekyll-seo-tag`를 입력하면 설치가 진행됩니다. 개인적으로는 설치가 끝난 후 
-```
+```bash
 Done installing documentation for safe_yaml, rouge, forwardable-extended, pathutil, mercenary, liquid, kramdown, ffi, rb-inotify, rb-fsevent, listen, jekyll-watch, sass, jekyll-sass-converter, colorator, public_suffix, addressable, jekyll, jekyll-seo-tag after 45 seconds
 19 gems installed
 ```
 위 와 같은 결과 코드가 나왔는데 플러그인을 설치하면서 다른 gem들도 같이 설치했나봅니다... 허허 한번 확인을 해봐야겠네요. 
+
+## 지킬 실행
 
 <!--## 지킬 실행
 
