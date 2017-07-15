@@ -52,12 +52,12 @@ collections:
     permalink: /tags/:path/
 
 defaults:
-  - scope:
+  - 
+    scope:
       path: ''
       type: tags
     values:
       layout: tag
-
 
 # Disqus
 disqus:

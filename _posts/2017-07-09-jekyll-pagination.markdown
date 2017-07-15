@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Jekyll Pagination(페이지)"
+description: "지킬 페이지 구현"
+author: chanspark
+image: "20170630-1-main.jpg"
+date:   2017-07-10 20:30:00 +0900
+tags: [jekyll]
+comments: true
+---
+
+## 지킬에서 Pagination 기능 구현하기
+지킬을 블로그로 활용하기위해 약 2주간 고군분투 하고 있습니다. 일일 포스트 작성하랴, 디자인 변경하랴, 기능 구현하라 이것저것 신경쓸게 많네요. 기능 구현은 [지킬 공식 사이트](https://jekyllrb.com/docs)와 기타 블로그를 참조해가면서 만들고 있는데 시행착오가 너무 많이 일어나고 있습니다 ㅠㅠ
+
+디자인이야 html 이랑 css 만 잘 만질 수 있으면 금방 구축하고 반응형까지도 문제는 없는데(오직 시간과의 싸움일 뿐...) 기능 구현은 개념을 정확하게 이해하는데도 시간이 들어서 더 어렵습니다. 에러가 나면 이게 무슨 에러인지도 찾아봐야하고.... 어쨌든, 블로그에는 꼭 필요한 Pagination 기능을 구현해보도록 하겠습니다. 
+
+## 기본 셋업
+[지킬 Pagination 문서](https://jekyllrb.com/docs/pagination/)에 따르면 먼저 `_config.yml` 파일에 관련 기능을 추가해야합니다. 
+``` 
+gems: 
+      - jekyll-paginate
+      
+paginate: 5
+paginate_path: "/blog/page:num/"
+```
+두번째 줄의 추가사항은 왜 넣어야하는지 정확하게 이해를 못했으므로 나중에 수정하겠습니다.
+
+위의 코드를 삽입하셨으면 `gem` 을 추가해야합니다. `Gemfile`파일에 아래 코드를 추가해줍니다.
+```
+gem "jekyll-paginate"
+```
+
+`gem`추가 후 설치를 진행해야합니다. 
+``` sh
+$ bundler install
+```
+
+
+<!--## 번외: DISQUS 연결하기
+[xho95's Swift Life 블로그](https://xho95.github.io/blog/jekyll/disqus/migration/2017/01/20/Add-Disqus-to-Jekyll.html)의 포스트를 참고하시면 좋겠습니다. -->
+
+

@@ -1,0 +1,87 @@
+---
+layout: post
+title:  "WILT 7/14, 링크복사 버튼"
+description: " "
+author: chanspark
+image: "20170630-1-main.jpg"
+date:   2017-07-14 20:30:00 +0900
+tags: [wilt]
+comments: true
+---
+
+WILT(What I Learned Today)는 초급 개발자의 생존일기 입니다. 작업하며 겪었던 에러 등을 해결하기 위한 고민의 흔적들을 저장하는 지극히 개인적인 포스트 입니다. 
+
+
+## 링크복사 버튼 만들기
+링크복사하기 기능을 만들어보겠습니다. 
+
+### 방법 1 core JS
+흔히들 사용하시는 방법입니다.
+
+``` html
+<a href="javascript:;" onclick="copyLink('yourlink.com');">링크복사</a>
+```
+
+``` js
+var copyLink = function(str) {
+    if( is_ie() ) {
+        window.clipboardData.setData("Text", str);
+        alert("복사되었습니다.");
+        return;
+    }
+    prompt("Ctrl+C를 눌러 복사하세요.", str);
+};
+```
+
+### 방법 2 Clipboard.js
+플러그인을 마음대로 사용해볼까요?? [clipboard.js](https://clipboardjs.com/) 라는 오픈소스 Javascript 플러그인이 있습니다.
+저희가 필요로 하는 꼭 필요한 기능이 있는것 같아서 한번 사용해보겠습니다.
+
+#### 설치
+npm 으로 설치할 수 있습니다
+``` bash
+$ npm install clipboard --save
+```
+만약 npm 을 사용하지 않으신다면, [다운로드 링크](https://github.com/zenorocha/clipboard.js/archive/master.zip)를 통해서 바로 받으실 수 있습니다.
+압축을 풀고 `/dist`에 담겨있는 `js` 파일들을 사용해주세요. 플러그인 파일들을 프로젝트에서 불러오기만 하면 모든 준비는 되었습니다.
+
+### 사용법
+jQuery를 사용하신다면 아래와 같은 방법으로 플러그인을 사용할 수 있습니다. 
+``` js
+new Clipboard('.버튼의-클래스-또는-아이디');
+```
+[사이트]((https://clipboardjs.com/)) 에서는 3가지의 방법을 소개하지만 저는 가장 편해보이는 방법으로 사용할 계획입니다. `data-clipboard-text`라는 data 속성을 사용하면 가장 쉽게 링크복사 기능을 구현할 수 있습니다.
+``` html
+<button class="btn" data-clipboard-text="카피하고 싶은 텍스트">
+...
+```
+이정도면 필요한 기능은 다 구현이 된것인데, 플러그인이 지원하는 브라우저 리스트를 알아야지 실제로 적용할 수 있겠죠?
+제작자에 따르면 Selection 과 execCommand API를 사용하는 플러그인이라고 하는데, Selection 같은 경우 모든 브라우저가 지원하지만 execCommand 는 그렇지 않다고 합니다. 다행히 IE9 이상은 지원하지만 IE8 이하부터가 문제가 되겠네요 ㅂㄷㅂㄷ.. 
+다행히 clipboard.js는 버튼 클릭시 event로 'success'와 'error'값을 반환해 주는데, 이 둘을 이용해서 크로스 브라우징을 맞출 수 있다고 합니다. 지원되지 않는 브라우저에서는 'error'값을 반환하게 되는데, 이때 'ctrl + c를 눌러서 복사하세요' 라는 `alert`창을 띄워주면 해결할 수 있을것이라고 하네요. (잠깐, 모바일 브라우저는...?)
+
+크로스 브라우징까지 고려한 코드는 다음과 같습니다. t
+``` js
+var clipboard = new Clipboard('.btn');
+
+clipboard.on('success', function(e) {
+    alert("링크 복사가 완료되었습니다.")
+});
+
+clipboard.on('error', function(e) {
+    alert("Ctrl + C 를 누르면 복사가 완료됩니다.")
+});
+
+```
+
+이 외에도 여러가지 방법이 있겠지만, 크로스브라우징 이슈를 최소화 할 수 있는 clipboard.js 를 사용하시는걸 추천드립니다. 참고로 위의 플러그인으로 모바일, 데스크탐 모두 테스트 해본 결과 잘 작동하는것을 확인했습니다.
+
+## 폭포수모델
+> 폭포수 모델(waterfall model)은 순차적인 소프트웨어 개발 프로세스로, 개발의 흐름이 마치 폭포수처럼 지속적으로 아래로 향하는 것처럼 보이는 데서 이름이 붙여졌다. 이 폭포수 모델의 흐름은 소프트웨어 요구사항 분석 단계에서 시작하여, 소프트웨어 설계, 소프트웨어 구현, 소프트웨어 시험, 소프트웨어 통합 단계 등을 거쳐, 소프트웨어 유지보수 단계에까지 이른다.
+> -위키피디아
+이런것도 있구나... 하고 하나 배워갑니다.
+
+## NPM
+[node.js package manager 사용하기](https://www.sitepoint.com/beginners-guide-node-package-manager/)
+항상 언제 한번 제대로 알아보기로 하고서 제대로 알아본적이 없었습니다. 아마 이번에도 그럴거 같네요 흨 ㅠㅠㅠ
+
+
