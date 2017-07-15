@@ -101,7 +101,7 @@
 }
 /* Name Builtin */
 .highlight .nb {
-  color: transparent;
+  color: #d46c75;
   background-color: #282c34;
 }
 /* Name Class */
@@ -431,4 +431,39 @@
 .highlight .w {
   color: transparent;
   background-color: #282c34;
+}
+
+
+
+// HTML
+.language-html {
+  .highlight {
+    .nt {
+      color: #d46c75;
+    }
+    .na {
+      color: #d19a54;
+    }
+    .s {
+      color: #91c379;
+    }
+  }
+}
+
+// bash
+.language-bash {
+  .highlight {
+    // .nt {
+    //   color: #d46c75;
+    // }
+    // .na {
+    //   color: #d19a54;
+    // }
+    // .s {
+    //   color: #91c379;
+    // }
+    .gp {
+      color: #d46c75;
+    }
+  }
 }

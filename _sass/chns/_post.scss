@@ -3,7 +3,11 @@
  */
 
 .post-header {
-    margin-bottom: $spacing-unit;
+    // margin-bottom: $spacing-unit;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: $spacing-unit;
 }
 
 .post-title {
@@ -14,7 +18,8 @@
     color: $color-white;
     -webkit-font-smoothing: antialiased;
     margin-bottom: 0;
-    	text-shadow: 0 0 2px rgba(0,0,0,1);
+    text-shadow: 0 0 2px rgba(0,0,0,1);
+    word-break: keep-all;
 
     @include media-query($on-laptop) {
         @include relative-font-size(2.25);
@@ -56,8 +61,14 @@
         }
     }
     a {
-        background-color: $color-highlight;
+        // transition: all 0.2s ease;
+        // background-color: $color-highlight;
+        background: linear-gradient(transparent 65%, $color-highlight 66%, $color-highlight 100%);
         padding: 0 5px;
+        &:hover {
+            background: $color-highlight;
+            // background: linear-gradient(transparent 0%, $color-highlight 0%, $color-highlight 100%);
+        }
     }
 }
 

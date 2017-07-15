@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "WILT 7/14, 링크복사 버튼"
-description: " "
+description: "클릭한번으로 링크를 복사하자"
 author: chanspark
-image: "20170630-1-main.jpg"
+image: ""
 date:   2017-07-14 20:30:00 +0900
 tags: [wilt]
 comments: true
