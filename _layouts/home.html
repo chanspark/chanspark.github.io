@@ -63,11 +63,11 @@ layout: default
         {% endif %}
         {% for p in (first..last) %}
             {% if p == paginator.page %}
-                <li class="pagination-list page-number active btn btn-grey">{{ p }}</li>
+                <li class="pagination-list pagination-number pagination-active">{{ p }}</li>
                 {% elsif p == 1 %}
-                <li class="pagination-list page-number btn btn-grey"><a href="{{ site.baseurl }}/">{{ p }}</a></li>
+                <li class="pagination-list pagination-number"><a href="{{ site.baseurl }}/">{{ p }}</a></li>
             {% else %}
-                <li class="pagination-list page-number btn btn-grey"><a
+                <li class="pagination-list pagination-number"><a
                             href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', p }}">{{ p }}</a></li>
             {% endif %}
         {% endfor %}
