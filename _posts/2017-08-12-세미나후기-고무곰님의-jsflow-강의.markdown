@@ -7,6 +7,7 @@ image: "20170630-1-main.jpg"
 date:   2017-08-12 20:30:00 +0900
 tags: []
 comments: true
+published: false
 ---
 
 ## 하코사(하드코딩하는 사람들)

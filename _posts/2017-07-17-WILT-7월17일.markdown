@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "WILT 7/17, 링크복사 버튼"
+description: ""
+author: chanspark
+image: ""
+date: 2017-07-17 20:30:00 +0900
+tags: [wilt]
+comments: true
+published: false
+---
+
+WILT(What I Learned Today)는 초급 개발자의 생존일기 입니다. 작업하며 겪었던 에러 등을 해결하기 위한 고민의 흔적들을 저장하는 지극히 개인적인 포스트 입니다. 
+
+
+## 페이스북 공유 버튼 만들기
+페이스북 공유버튼 제작 방법은 생각보다 쉽습니다. 글로벌기업답게 api 문서가 한글로 나와있기 때문이죠. 공유버튼을 만드는 방법은 다음과 같습니다.
+1. SDK를 붙여넣는다.
+2. 페이스북에서 제공하는 버튼 html을 붙여넣는다.
+3. 끝!
+
+### 커스터마이징
+다만 이렇게 하면 페이스북의 기본 '공유하기'버튼 디자인을 사용해야합니다. 아름다움을 중요시 여기는 분들이라면 사이트에 커스터마이즈 되어있는 버튼에 '공유하기' 기능을 적용하고 싶으시겠죠? 그것도 가능합니다. (역시 구글신)
+1. SDK를 붙여넣는다.
+2. 기능을 연동하고 싶은 버튼 html 태그에 `onclick` 기능을 넣는다.
+
+``` html
+<!-- onclick 기능 -->
+<a href="javascript:;" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('공유-하고-싶은-URL'),'facebook-share-dialog','width=626,height=436'); return false;" >
+... <!-- 직접 디자인한 아이콘 이미지, 버튼 내용을 넣으세요 -->
+</a> 
+```
+간략한 설명을 넣겠습니다.
+- `window.open`는 새로운 브라우저 창을 엽니다.
+- ``
+
