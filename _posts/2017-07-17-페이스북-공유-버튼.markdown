@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "WILT 7/17, 링크복사 버튼"
-description: ""
+title:  "페이스북 공유 버튼"
+description: "클릭한번으로 페북공유 시키기"
 author: chanspark
 image: ""
 date: 2017-07-17 20:30:00 +0900
 tags: [wilt]
 comments: true
-published: false
+published: true
 ---
 
 WILT(What I Learned Today)는 초급 개발자의 생존일기 입니다. 작업하며 겪었던 에러 등을 해결하기 위한 고민의 흔적들을 저장하는 지극히 개인적인 포스트 입니다. 

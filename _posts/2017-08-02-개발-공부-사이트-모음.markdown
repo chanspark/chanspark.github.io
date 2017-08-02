@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "개발 공부 사이트 모음"
+description: ""
+author: chanspark
+image: ""
+date: 2017-08-02 20:30:00 +0900
+tags: []
+comments: true
+published: false
+---
+
+개발을 하다보면 막힐때도 많고, 다른 사람들의 해결법이 궁금해지기도 합니다. 제가 부족한 부분은 어떻게 해서든 채워넣고 싶은 갈증?을 항상 느끼고 있습니다. 그래서 틈만나면 다양한 사이트를 눈팅하며 '다시 찾아야 하는 사이트'로 개인 카톡에 뿌려주고 있습니다 ㅇㅅㅇ.. 개인카톡창에 링크들이 엄청 많이 쌓이다 보니 정리를 해야할거 같아서 이렇게 포스트로 남깁니다.
+
+## 개발 공부 사이트
+1. [try hello world](http://tryhelloworld.co.kr/) 한국형 codecademy 사이트 느낌을 받았습니다. 직접 강의를 들어본 적은 없습니다.
+2. [Codecademy](https://codecademy.com) 유명한 사이트죠. 
+3. [인프런](https://inflearn.com) 한국형 udemy? 
+
+## 개발 블로그
+개발블로그는 개인이 운영하는것도 있고, 기업에서 개발 블로그를 운영하기도 합니다. 
+### 기업 블로그
+1. 카카오 블로그
+2. 배민 블로그
+
+### 개인 블로그
+1. [chans의 블로그](https://chanspark.github.io/blog) 제 블로그 입니다. (은근슬쩍)
+
+
+## 참고 사이트
+
+
+
+
+
+
+
+

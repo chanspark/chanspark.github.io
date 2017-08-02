@@ -1,6 +1,6 @@
 ---
 name: wilt
-title: What I Learned Today(WILT)
+title: 오늘의 배움
 image: ""
 
 ---

@@ -9,7 +9,7 @@ tags: [jekyll, express, ajax]
 comments: true
 ---
 
-<!--# ExpressJS 에서 AJAX호출을 통한 EJS 템플릿 작성-->
+
 ## 생각
 회사 사이트에 마케팅을 위한 블로그 형식에 페이지가 있습니다. 마케팅을 위해서라면 SEO가 무엇보다 중요하기 때문에 블로그 페이지에서만이라도 각종 `meta` 태그를 적용시켜보기로 했습니다.
 우선 사이트가 express js 와 ejs 를 기반이기 때문에 템플릿 엔진으로 DOM을 구현하면 될것 같습니다.
@@ -41,26 +41,3 @@ router.get('/blogs/:slug', function(req, res, next) { // 'blogs/한글-URL-입�
 
 
 
-
-
-<!--
-```javascript
-// membership type
-/*
-* length
-*/
-var chans = 1;
-var value = $(input).val();
-    console.log(value);
-    var valueTrim = value.trim();
-if (regPhoneNum.test(valueTrim) === true) {
-        // 휴대폰 번호만 입력시 테스트
-        if (length == 11 || length == 10) {
-            validateSuccess($(input));
-            registerType = "phone";
-        } else {
-            validateError($(input));
-            registerType = "null";
-
-        }
-```-->

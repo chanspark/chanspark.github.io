@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "location.replace"
+description: "오늘의 배움 끄적끄적"
+author: chanspark
+image: " "
+date: 2017-07-06 09:30:00 +0900
+tags: [wilt]
+comments: true
+---
+
+## JS location.replace vs location.href
+[추천](http://www.opencode.co.kr/bbs/board.php?bo_table=javascript_tips&wr_id=62)
+
+## 오늘의 사이트
+[Git Book](https://www.gitbook.com/)
+[코드쓰는사람, Taegon](https://taegon.kim/archives/5678)

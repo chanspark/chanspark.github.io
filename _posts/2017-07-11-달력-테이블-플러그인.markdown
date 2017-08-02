@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "WILT 7/11 달력,테이블 플러그인"
-description: " "
+title:  "달력,테이블 플러그인"
+description: "자주 사용하게 될 플러그인들"
 author: chanspark
-image: "20170630-1-main.jpg"
+image: " "
 date:   2017-07-11 20:30:00 +0900
 tags: [wilt]
 comments: true

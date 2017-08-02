@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "jekyll serve 에러 문제"
-description: "XMLHttpRequest, AJAX, NPM"
+description: "jekyll에서 문제가 발생했다"
 author: chanspark
 image: "default.jpg"
 date:   2017-07-04 20:30:00 +0900

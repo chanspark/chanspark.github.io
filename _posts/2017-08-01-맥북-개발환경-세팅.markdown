@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "맥 개발환경 세팅"
+description: "맥 개발을 위한 필수 환경 세팅"
+author: chanspark
+image: ""
+date: 2017-08-01 20:30:00 +0900
+tags: [mac, life]
+comments: true
+published: true
+---
+
+2011년 맥북이 어느날 뻗어버렸습니다. 오래된 아이이기 때문에 또 뒷판을 열고 램을 다시 끼워보고, SSD를 다시 연결해 보는 등 심폐소생술을 하려고 했지만 결국 메인보드가 뻗었다는 진단을 받게 되었습니다 ㅠㅠㅠ 그렇게 애지중지 사용하던 맥북이를 떠나보내고... 대망의 2017년형 맥북 프로 13인치를 영입하게 되었습니다!! 대망의 새 맥북에 제가 원하는 개발환경을 설치해보았습니다.
+
+
+## 필수 앱 
+개발과 관련해서 생산성이 높아지는(?) 앱까지, 제가 생각할때 꼭 필요한 앱을 나열해보았습니다.
+
+1. XCode
+2. Webstorm(IntelliJ)
+3. SourceTree
+4. MacDown
+5. Bandizip X
+6. DropBox
+7. The Unarchiever
+8. Better Touch Tool
+9. Magnet
+10. Dr.Cleaner
+11. Tomato One
+12. Postman
+13. Zeplin
+14. Sketch
+15. Adobe Creative Cloud
+16. Marp
+
+생각보다 매일같이 필수적으로 사용하는 앱은 많지 않네요. 웹스톰으로 개발하고, 소스토리로 버전관리하고, 맥다운으로 블로그 포스트 작성하고... 그 외에는 생산성을 높여주는 툴들이네요! 위 앱중 웹스톰, 마그넷, BTT를 제외하고는 무료로 사용할 수 있습니다.
+
+## 개발 환경 세팅
+프론트엔드 개발을 하기위해서 필수로 설치해야하는 모듈을 깔아줍니다.
+
+1. Node.js
+2. npm
+3. babel
+
+터미널은 zsh로 환경을 바꿔줍니다. 좀 더 예쁜 터미널을 사용하기 위해서는 
+
+1. Oh-My-Zsh 설치
+2. pure theme, hyper-snazzy 적용
+3. 	zsh 용 syntax-highlighter plugin 적용
+
+## 기타
+1. 구글 화면보호 백그라운드 이미지 플러그인? 사용
+2. 웹스톰 단축키, 테마, syntax highlighter등 내맘대로 커스터마이징!
+
+
+
+
+
+

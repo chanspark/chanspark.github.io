@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll Pagination(페이지)"
+title:  "Jekyll Pagination"
 description: "지킬 페이지 구현"
 author: chanspark
 image: "20170630-1-main.jpg"

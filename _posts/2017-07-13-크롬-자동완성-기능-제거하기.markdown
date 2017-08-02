@@ -1,18 +1,13 @@
 ---
 layout: post
-title:  "WILT 7/13 encodeURI(), 크롬 자동완성"
-description: " "
+title:  "크롬 자동완성 기능 제거하기"
+description: "자동완성을 내가 원하는대로"
 author: chanspark
 image: "20170630-1-main.jpg"
 date:   2017-07-13 20:30:00 +0900
 tags: [wilt]
 comments: true
 ---
-
-WILT(What I Learned Today)는 초급 개발자의 생존일기 입니다. 작업하며 겪었던 에러 등을 해결하기 위한 고민의 흔적들을 저장하는 지극히 개인적인 포스트 입니다. 
-
-
-## encodeURI()
 
 ## 크롬 자동완성기능(autocomplete) 끄기
 회원가입, 로그인 폼에는 꼭 패스워드와 아이디, 이름, 주소, 카드번호, 카드 비밀번호 등등 다양한 개인정보를 작성해야하는 페이지가 존재합니다. 구글 크롬(ㅂㄷㅂㄷ)은 같은 정보를 여러 사이트에서 쉽게 입력할 수 있도록 자동완성기능(autocomplete)이란것을 지원합니다. 문제는 이 자동완성기능이 사이트에서 필요로 하지 않는 정보까지 포함하고 있기때문에 보안 문제가 많다고 하네요.[크롬의 자동완성기능의 보안 문제와 해결법-영문](https://medium.freecodecamp.org/why-your-browsers-autocomplete-is-insecure-and-you-should-turn-it-off-ebc73d7bcefd) 그래서 저는 개인적으로 이 기능을 off 하고 사용하고 있지만 저희 고객분들은 그런 기능을 잘 모르는 분들이 많겠죠!! 그렇다고 일일이 고객분들께 사용하지 말아달라고 부탁할 수도 없는 노릇이고... 하니 사이트에서 자체적으로 이 기능을 block 해버리는 방법을 찾아보게 되었습니다.

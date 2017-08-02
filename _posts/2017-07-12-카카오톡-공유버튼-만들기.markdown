@@ -1,16 +1,13 @@
 ---
 layout: post
-title:  "WILT 7/12 모바일 웹에서 카카오톡 공유"
-description: " "
+title:  "카카오톡 공유버튼 만들기"
+description: "모바일 웹에서 카톡 앱으로"
 author: chanspark
-image: "20170630-1-main.jpg"
+image: " "
 date:   2017-07-12 20:30:00 +0900
 tags: [wilt]
 comments: true
 ---
-
-WILT(What I Learned Today)는 초급 개발자의 생존일기 입니다. 작업하며 겪었던 에러 등을 해결하기 위한 고민의 흔적들을 저장하는 지극히 개인적인 포스트 입니다. 
-
 
 ## 모바일 웹에서 카카오톡 앱으로 공유하기
 [kakao developers](https://developers.kakao.com/docs/js#카카오링크-피드-템플릿-보내기)사이트에 올라와 있는 방법입니다.
