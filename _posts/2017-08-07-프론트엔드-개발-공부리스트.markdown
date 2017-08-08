@@ -1,0 +1,138 @@
+---
+layout: post
+title: "프론트엔드 개발 공부리스트"
+description: "프론트엔드 개발을 제대로 배워보자"
+author: chanspark
+image: ""
+date: 2017-08-07 20:30:00 +0900
+tags: [wilt]
+comments: true
+published: true
+---
+
+## 공부해야하는것들
+1. 기본 컴퓨터공학 지식
+	1. 기본지식
+	3. http, 동작원리
+	4. HTTP 헤더 (Expires, Cache-Control, If-Modified-Since)
+	5. 통신, 네트워크 관련 지식 (서적을 읽어보자?)
+	6. cors
+	7. OSI7 계층
+	8. 자료구조 (자바로)
+	9. 알고리즘
+	10. 배포전략(모듈화)
+	11. 개발 방법론(에자일)
+	12. SOCKET.io / TCPIP (채팅관련?)
+	13. 외부에서 강제 크롤링을 잘 해줄 수 있도록 하려면 어떻게 하는게 좋을까?
+2. 웹과 관련된 초초초기본지식
+	1. 동기, 비동기
+	2. stateless connection
+	3. RestfulWebAPI 동작원리 및 작성 규칙
+	4. 브라우저 자체의 동작원리 (기저층?)
+	5. DOM, virtual DOM
+	6. 쿠키
+	7. 캐시, 프리 페칭pre-fetching 및 지연 로드 기법
+	8. 세션
+	9. MVC
+	10. API
+	11. UUID
+	12. AJAX 통신 메서드
+	13. 서버와 통신하고 데이터를 가져오는 방법
+	14. 리소스 최적화하는 방법
+	15. DNS Resolution, CDNContent Delivery Networks 사용, 여러 호스트 이름을 통한 리소스 요청 성능 향상
+	16. 퍼포먼스를 올리는 방법
+	17. 스티브 사우더스의 규칙(고성능 웹사이트)
+3. 기타?
+	1. 이벤트 버블링
+	2. 체인지 디텍터
+4. 개발지식
+	1. 자바스크립트의 컴퓨터과학
+		1. 	JSONP
+		2. 클로저
+		3. 익명함수, 사용법
+		4. 호이스팅
+		5. git 플로우
+		6. this 바인딩
+		7. 이벤트 바인딩
+		8. 싱글 스레드 특성
+		9. 가비지 컬렉터 알고리듬
+		10. 타임아웃
+		11. 스코핑
+		12. 패턴
+		13. 메모리 관리
+		14. memory leak 	
+	2. 자바스크립트 관련 기본 지식
+		1. 	var, let, const 차이
+		2. prototype 동작원리
+		3. prototype 을 이용한 상속 구현
+		4. 할머니에게 프로토타입을 설명한다면?
+		5. falsy 값
+		6. && || 연산자
+		7. typeof 연산자로 검증되는 타입들
+		8. Promise 설명
+	3. 크롬 개발자 도구중 워터폴에 대해
+	4. 리액트와 앵귤러의 차이점은?
+	5. 제너레이터에 대해 아는가?
+	6. nodejs 개발 환경에 익숙한가?
+	7. PageSpeed, YSlow, 크롬 개발자 도구 Audit, 크롬 개발자 도구 Timeline에서 보여주는 문제를 해결하는 법
+	8. hashbang(ajax)
+	9. middleware
+	10. SEO on SPA page
+	11. 작업을 서버에서 해야할 때와 클라이언트에서 해야할 때 구분
+	12. 이미지 포맷과 장점. 언제 무엇을 어떻게 써야 하는가에 대한 지식. 이미지 최적화 기법과 사용 계획 (스프라이트, 게으른 로딩 기법, 캐시 비움, 인터레이스드 PNG)
+	13. MVC 자바스크립트 라이브러리 관련
+		1. Angular JS
+		2. Vue JS
+		3. React JS
+		4. Ember JS?
+	14. 그래픽 라이브러리
+		1. D3
+		2. SnapSVG 
+	15. DOM 라이브러리
+		1. jQuery
+		2. Zepto 
+	16. 태스크 관리자
+		1. Grunt
+		2. Yeoman
+		2. Gulp
+		3. Webpack
+	17. 패키지 관리자
+		1. Bower
+		2. ComponentJS
+		3. NPM
+		4. Yarn
+	18. 테스팅
+		1. Protractor
+		2. Selenium
+	19. 패키지 관리 라이브러리, 게으른 코딩 등
+		1. RequireJS
+		2. CommonJS
+
+
+## 배우고 싶은 언어/기술
+1. Python
+2. Java
+3. React / React Native
+4. Firebase
+5. mySQL
+6. GIT
+
+## 알아보고 싶은 기술
+1. AWS
+2. nginx
+3. SSH
+4. oAuth
+
+## 회사 테크스택
+1. MySQL
+2. Python + Flask + SQLalchemy
+3. Node.js + Express
+4. jQuery
+
+## 출판사 추천
+1. Insite
+2. 
+
+
+
+

@@ -14,8 +14,8 @@ published: false
 
 ## 개발 공부 사이트
 1. [try hello world](http://tryhelloworld.co.kr/) - 한국형 codecademy 사이트 느낌을 받았습니다. 직접 강의를 들어본 적은 없습니다.
-2. [Codecademy](https://codecademy.com) - 유명한 사이트죠. 
-3. []()
+2. [Codecademy](https://codecademy.com) - 무료로 코딩을 배울 수 있는 사이트 입니다. 사이트 내에서 코딩을 직접 작성할 수 있으며, 그 결과물을 토대로 한 단계씩 강의가 진행됩니다. HTML, CSS, Javascript등의 언어는 이 사이트를 통해서 입문해도 좋을거 같습니다. 이 외에도 다양한 언어가 있습니다.
+3. [Udemy](https://udemy.com) - 유명한 해외 인강사이트 입니다. 프로그래밍, 마케팅, 자기계발등 다양한 분야의 인강을 제공합니다. 가격대가 조금 있지만, 1만원대 할인을 자주 하는 편이니 저렴하게 풀릴때 듣고싶은 인강을 여러개 구매해놓으시면 되겠습니다. 
 3. [인프런](https://inflearn.com) - 한국형 udemy? 
 4. [Stack Overflow](https://stackoverflow.com/) - 개발관련 구글링 == 스택오버플로우 라는 말이 있죠. 그만큼 다양한 질문들이 있고, 하나의 질문에 수십개의 solution이 달리는 신기한 광경을 볼 수 있습니다. 사용자끼리 토론도 열심히 하는데, 우리에게 필요한건 코드로 되어있는 부분이겠죠 ㅠㅠ 
 5. [해쉬코드](http://hashcode.co.kr/) - 
@@ -25,20 +25,20 @@ published: false
 ## 개발 능력 사이트
 1. [Codepen](https://codepen.io) - 웹 브라우저 상에서 html, css, js를 테스트 해볼 수 있는 사이트 입니다. 급하게 테스트 해보고 싶은 코드가 있을때 사용하면 유용합니다. 기본적인 html, css, js에 추가적으로 scss, haml, coffeescript 등의 다양한 전처리기를 사용할 수 있습니다.
 2. [JS bin](https://jsbin.com) - Codepen과 비슷한 기능을 하는 사이트 입니다. 직접 써본적은 없네요.
-3. 
 
 ## 개발 블로그
 개발블로그는 개인이 운영하는것도 있고, 기업에서 개발 블로그를 운영하기도 합니다. 
 ### 기업 블로그
-1. 카카오 블로그
-2. 배민 블로그
+1. 카카오 기술 블로그
+2. 배민 기술 블로그
+3. [레진 기술 블로그](http://tech.lezhin.com/)
 
 ### 개인 블로그
 1. [chans의 블로그](https://chanspark.github.io/blog) 제 블로그 입니다. (은근슬쩍)
 
 
 ## 참고 사이트
-
+1. 
 
 
 
