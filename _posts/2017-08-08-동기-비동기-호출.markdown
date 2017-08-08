@@ -4,14 +4,14 @@ title: "동기, 비동기 호출에 대해서"
 description: "영어로는 Synchronous, Asynchronous Call"
 author: chanspark
 image: ""
-date: 2017-08-07 20:30:00 +0900
+date: 2017-08-07 21:30:00 +0900
 tags: [wilt]
 comments: true
 published: true
 ---
 
 ### 들어가기에 앞서..
-동기, 비동기 호출을 이해하기 위해서는 [프로세스(스레드)](https://chanspark.github.io/)에 대해서 알고있는 편이 좋다.
+동기, 비동기 호출을 이해하기 위해서는 [프로세스(스레드)](https://chanspark.github.io/blog/2017/08/07/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C.html)에 대해서 알고있는 편이 좋다.
 
 ## 동기 호출
 동기, 비동기 호출은 프로그램에서 멀티 프로세스(스레드) 환경에서 실행되는 경우 알아야하는 기본 개념이다. 
