@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[생활코딩] "
+title: "[생활코딩] 인터넷"
 description: ""
 author: chanspark
 image: ""
@@ -10,7 +10,14 @@ comments: true
 published: false
 ---
 
-## 
+생활코딩을 통해서 부족한 기본기를 다져보기로 했다. 
+
+## 서버란
+
+
+## 도메인이란?
+
+
 
 
 

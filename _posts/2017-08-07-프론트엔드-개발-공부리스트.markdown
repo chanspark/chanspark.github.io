@@ -42,6 +42,9 @@ published: true
 	15. DNS Resolution, CDNContent Delivery Networks 사용, 여러 호스트 이름을 통한 리소스 요청 성능 향상
 	16. 퍼포먼스를 올리는 방법
 	17. 스티브 사우더스의 규칙(고성능 웹사이트)
+	18. protocol
+	19. ip
+	20. URL, URI
 3. 기타?
 	1. 이벤트 버블링
 	2. 체인지 디텍터
