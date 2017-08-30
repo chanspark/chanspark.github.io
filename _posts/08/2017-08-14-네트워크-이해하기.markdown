@@ -1,0 +1,44 @@
+---
+layout: post
+title: "네트워크 이해하기"
+description: "기본중의 기본, byte"
+author: chanspark
+image: ""
+date: 2017-08-10 20:30:00 +0900
+tags: [study, wilt]
+comments: true
+published: false
+---
+
+웹 개발의 기본이 되는 네트워크에 대해서 공부를 해봤습니다. 블로그, 각종 위키등을 참조하였습니다.
+
+## Bit, Byte
+컴퓨터간 의사소통할때 사용되는 단위개념. 전자식 스위치로 데이터를 주고 받는것임. 2진수(binary)로 0(off), 1(on) 두가지 값만 사용할 수 있으며 이 값 하나를 bit 라고 함.
+
+컴퓨터는 일반저긍로 8개의 bit을 하나로 그룹화 하는데, 이렇게 그룹이 된 단위를 Byte 라고 함. 1 Byte로 뽑아낼 수 있는 경우의 숫자는 255가지가 있음. 
+Byte는 주소 저장이 가능한 단일 저장소라고 부르며, ASCII 코드와 같은 문자를 저장할 수 있음.
+
+bit, Byte, KB, MB, GB, TB...
+
+## 네트워크란?
+네트워크란 컴퓨터들이 통신 기술을 이용하여 그물망처럼 연결된 통신 이용 형태를 뜻한다. 쉽게 말하자면 두대 이상의 컴퓨터가 서로 연결되어있고, 통신을 할 수 있는것.네트워크를 사용함으로써 장점은 무궁무진하다. 지금 사용하는 인터넷과 무선통신등이 다 '네트워크'이기 때문이다. 단점이라고 할만한것은 해킹으로 인한 정보유출 및 바이러스 감염 등이 있다.
+
+네트워크의 종류는 아래와 같다
+
+1. PAN ( Personal Area Network ) : 가장 작은 규모의 네트워크
+2. LAN ( Local Area Network ) : 근거리 영역 네트워크
+3. Man ( Metropolitan Area Network ) : 대도시 영역 네트워크
+4. Wan ( Wide Area Network ) : 광대역 네트워크, 지역과 지역, 나라와 나라, 대륙과 대륙을 연결함.
+
+추가적으로 WLAN, SAN, CAN, GAN, VPN, ISDN, Intranet, Extranet 등등이 있다.
+
+## LAN이란
+
+
+
+
+
+[참고](http://mindnet.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-1%ED%8E%B8-Bit-%EC%99%80-Byte-%EC%B0%A8%EC%9D%B4%EC%A0%90)
+
+
+

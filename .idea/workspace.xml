@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="813968da-bdb7-461f-8ece-a671fe158eaa" name="Default" comment="" />
+    <list default="true" id="813968da-bdb7-461f-8ece-a671fe158eaa" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-06-28-지킬-설치-후-맥-셋업.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-06-29-ExpressJS-AJAX-사용기.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-08-01-맥북-개발환경-세팅.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-08-02-개발-공부-사이트-모음.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-08-03-jekyll-검색엔진-최적화.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-08-04-수정된-데이터만-전송하기.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-08-07-프론트엔드-개발-공부리스트.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-08-08-동기-비동기-호출.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-08-08-프로세스와-스레드.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-08-10-사이트를-개발하며-봉착한-문제점들.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-08-10-생활코딩-공부-.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-08-11-버전관리툴.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-08-12-세미나후기-고무곰님의-jsflow-강의.markdown" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,8 +35,28 @@
       <file leaf-file-name="chns.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/chns.scss">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/chns/_base.scss">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_post.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/chns/_post.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -71,8 +105,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -93,7 +127,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,6 +229,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,17 +322,18 @@
       <workItem from="1501672493201" duration="2264000" />
       <workItem from="1501729422445" duration="533000" />
       <workItem from="1501918720940" duration="446000" />
+      <workItem from="1504007413857" duration="1064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5697000" />
+    <option name="totallyTimeSpent" value="6761000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14722222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.109531336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -329,6 +364,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_sass/chns.scss">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/chns.scss">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding />
@@ -340,7 +383,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="288">
             <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -348,19 +390,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-08-04-타이틀.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-08-04-타이틀.markdown" />
     <entry file="file://$PROJECT_DIR$/_sass/chns.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -396,7 +426,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -409,7 +438,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="252">
             <caret line="14" column="164" lean-forward="false" selection-start-line="14" selection-start-column="164" selection-end-line="14" selection-end-column="164" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -422,7 +450,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="198">
             <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -510,7 +537,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="54">
             <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -552,7 +578,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="54">
             <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -565,7 +590,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="252">
             <caret line="12" column="163" lean-forward="false" selection-start-line="12" selection-start-column="163" selection-end-line="12" selection-end-column="163" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -578,7 +602,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="198">
             <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -591,7 +614,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="360">
             <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -613,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/chns/_post.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -628,25 +643,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-08-04-타이틀.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="252">
-            <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-08-04-타이틀.markdown" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-08-03-jekyll-검색엔진-최적화.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="288">
             <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -654,10 +656,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/chns.scss">
+    <entry file="file://$PROJECT_DIR$/_sass/chns/_post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/chns/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/chns.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
           <folding />
         </state>
       </provider>

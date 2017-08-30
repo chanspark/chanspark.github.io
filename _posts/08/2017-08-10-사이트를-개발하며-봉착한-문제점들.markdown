@@ -27,7 +27,7 @@ published: false
 3. http
 4. cors
 5. tcp/ip
-6. 
+6. 네트워크 계층
 
 ## 문제점 2 브라우저
 다양한 OS와 브라우저간 동일한 서비스를 제공해주는 웹을 개발한다는건 쉽지 않은 일이다. 브라우저, DOM, 세션, 등등 브라우저와 관련된 다양한 지식들을 쌓아야겠다.
@@ -37,7 +37,7 @@ published: false
 3. DOM
 4. 쿠키, 세션, 캐시
 5. 로컬 스토리지
-6. 퍼포먼스를 올리기
+6. 퍼포먼스 올리기
 7. stateless connection
 8. URL, URI (uriencoding)
 9. 
