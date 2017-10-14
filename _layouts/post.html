@@ -23,6 +23,7 @@ layout: default
 
 
 
+
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
@@ -31,9 +32,19 @@ layout: default
     {% for tag in page.tags %}
       <a href="{{ site.baseurl }}/tags/{{ tag }}" class="btn btn-grey post-tag">{{ tag }}</a>
     {% endfor %}
-    <div class="post-footer-nav">
-      <a href="/" class="fl-l"><span class="icon-arrow-left"></span> RETURN</a>
-      <a href="#" class="fl-r">NEXT <span class="icon-arrow-right"></span></a>
+    <!--<div class="post-footer-nav">-->
+      <!--<a href="/" class="fl-l"><span class="icon-arrow-left"></span> RETURN</a>-->
+      <!--<a href="#" class="fl-r">NEXT <span class="icon-arrow-right"></span></a>-->
+    <!--</div>-->
+
+    <div class="PageNavigation">
+      {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url}}"><span class="icon-arrow-left"></span> {{page.previous.title}}</a>
+      {% endif %}
+      <a href="/" class="list"><span class="icon-list"></span> 목록으로</a>
+      {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}">{{page.next.title}} <span class="icon-arrow-right"></span></a>
+      {% endif %}
     </div>
     <!--<button class="btn btn-primary btn-lg post-btn " onclick="goBack();">목록으로 돌아가기</button>-->
   </div>

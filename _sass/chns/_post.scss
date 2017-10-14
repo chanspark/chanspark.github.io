@@ -87,3 +87,34 @@
     // padding-top: 30px;
     // padding-bottom: 20px;
 }
+
+.PageNavigation {
+    font-size: 14px;
+    display: block;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    a {
+        display: block;
+        width: 33.33%;
+        float: left;
+        margin: 1em 0;
+    }
+    .next {
+        text-align: right;
+    }
+    .list {
+        text-align: center;
+        //float: none;
+        //position: absolute;
+
+    }
+}
+
+.PageNavigation a {
+
+}
+
+.PageNavigation .next {
+
+}
