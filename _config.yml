@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: chans blog
+title: chans 기술블로그
 email: pcswer@gmail.com
-description: "Chans 의 포트폴리오 및 블로그 사이트 입니다."
+description: "Chans의 프론트엔드 기술블로그 사이트 입니다."
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: ""
 url: "https://chanspark.github.io"
@@ -43,6 +43,7 @@ exclude:
 gems: 
   - jekyll-seo-tag 
   - jekyll-paginate
+  - jekyll-sitemap
 #   - jekyll-autoprefixer
 
 # 태그 기능
@@ -74,3 +75,9 @@ paginate_path: "/page:num"
 #sass:
 #    sass_dir: _sass
 #    style: :compressed
+
+# SEO
+social:
+  name: Chans Park
+  links:
+    - https://github.com/chanspark
