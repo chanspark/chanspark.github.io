@@ -113,10 +113,11 @@
 // header state
 .site-header-dark {
   border-bottom: 0px solid transparent;
-  background: transparent;
+  //background: transparent;
+  background: white;
   .site-title {
     color: $color-white;
-    background-image: url("/blog/assets/logo-white.png") !important;
+    background-image: url("/assets/logo-white.png") !important;
   }
   .page-link {
     color: $color-white;

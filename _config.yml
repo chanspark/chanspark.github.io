@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chanspark.github.io"
 author: "chans"
 # twitter_username: jekyllrb
-github_username:  chanspark
+github_username: chanspark
 timezone: Asia/Seoul
 
 asset_path: "/assets/" # assets의 경로
