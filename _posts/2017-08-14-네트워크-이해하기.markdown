@@ -2,7 +2,7 @@
 layout: post
 title: "네트워크 이해하기"
 description: "기본중의 기본, byte"
-author: chanspark
+author: chans
 image: ""
 date: 2017-08-10 20:30:00 +0900
 tags: [study, wilt]

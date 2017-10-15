@@ -2,7 +2,7 @@
 layout: post
 title: "[생활코딩] 인터넷"
 description: ""
-author: chanspark
+author: chans
 image: ""
 date: 2017-08-10 20:30:00 +0900
 tags: [study, wilt]

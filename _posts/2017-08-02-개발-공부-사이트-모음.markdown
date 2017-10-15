@@ -2,7 +2,7 @@
 layout: post
 title:  "개발 공부 사이트 모음"
 description: ""
-author: chanspark
+author: chans
 image: ""
 date: 2017-08-02 20:30:00 +0900
 tags: [wilt, study, developer]

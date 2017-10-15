@@ -2,7 +2,7 @@
 layout: post
 title:  "맥 개발환경 세팅"
 description: "맥 개발을 위한 필수 환경 세팅"
-author: chanspark
+author: chans
 image: ""
 date: 2017-08-01 20:30:00 +0900
 tags: [mac, life]

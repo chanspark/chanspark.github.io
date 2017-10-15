@@ -2,7 +2,7 @@
 layout: post
 title:  "수정된 데이터만 전송하기"
 description: "기존 값이 변경되었는지 확인하는 기능구현"
-author: chanspark
+author: chans
 image: ""
 date: 2017-08-04 20:30:00 +0900
 tags: [wilt]

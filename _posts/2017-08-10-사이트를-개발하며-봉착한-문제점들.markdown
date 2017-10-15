@@ -2,7 +2,7 @@
 layout: post
 title: "사이트를 개발하며 봉착한 문제점들"
 description: "완벽한 서비스는 없다"
-author: chanspark
+author: chans
 image: ""
 date: 2017-08-10 20:30:00 +0900
 tags: [frontend, developer, wilt]

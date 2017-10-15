@@ -2,7 +2,7 @@
 layout: post
 title: "Create calendar with Moment.js"
 description: ""
-author: chanspark
+author: chans
 image: ""
 date: 2017-09-27 20:30:00 +0900
 tags: [study, wilt]

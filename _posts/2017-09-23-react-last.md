@@ -2,7 +2,7 @@
 layout: post
 title: "[React]TodoMVC + redux"
 description: ""
-author: chanspark
+author: chans
 image: ""
 date: 2017-09-15 20:30:00 +0900
 tags: [study, wilt]

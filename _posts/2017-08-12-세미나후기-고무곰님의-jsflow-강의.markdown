@@ -2,7 +2,7 @@
 layout: post
 title:  "세미나후기: 고무곰님의 jsflow를 듣고"
 description: " "
-author: chanspark
+author: chans
 image: "20170630-1-main.jpg"
 date:   2017-08-12 20:30:00 +0900
 tags: []

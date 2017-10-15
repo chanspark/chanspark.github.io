@@ -2,7 +2,7 @@
 layout: post
 title:  "페이스북 공유 버튼"
 description: "클릭한번으로 페북공유 시키기"
-author: chanspark
+author: chans
 image: ""
 date: 2017-07-17 20:30:00 +0900
 tags: [wilt]

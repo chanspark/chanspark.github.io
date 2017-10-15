@@ -2,7 +2,7 @@
 layout: post
 title:  "지킬 설치 후 맥 셋업"
 description: "깃허브 페이지와 지킬을 사용하기 위한 여러 삽질"
-author: chanspark
+author: chans
 image: "20170628-1-main.jpg"
 date:   2017-06-28 22:19:00 +0900
 tags: [jekyll, mac, wilt]

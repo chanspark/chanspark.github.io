@@ -2,7 +2,7 @@
 layout: post
 title:  "크롬 자동완성 기능 제거하기"
 description: "자동완성을 내가 원하는대로"
-author: chanspark
+author: chans
 image: "20170630-1-main.jpg"
 date:   2017-07-13 20:30:00 +0900
 tags: [wilt]

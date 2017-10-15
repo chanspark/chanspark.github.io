@@ -2,7 +2,7 @@
 layout: post
 title:  "XMLHttpRequest, Node"
 description: "기본 지식 쌓기"
-author: chanspark
+author: chans
 image: " "
 date:   2017-07-04 20:30:00 +0900
 tags: [wilt, ajax, node]

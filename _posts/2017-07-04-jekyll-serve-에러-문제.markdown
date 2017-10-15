@@ -2,7 +2,7 @@
 layout: post
 title:  "jekyll serve 에러 문제"
 description: "jekyll에서 문제가 발생했다"
-author: chanspark
+author: chans
 image: "default.jpg"
 date:   2017-07-04 20:30:00 +0900
 tags: [jekyll]

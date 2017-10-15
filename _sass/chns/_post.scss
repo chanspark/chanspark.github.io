@@ -38,7 +38,11 @@
     word-break: keep-all;
     -webkit-font-smoothing: antialiased;
     h2 {
-        @include relative-font-size(2);
+        @include relative-font-size(1.75);
+        font-weight: 600;
+        border-bottom: 1px solid $grey-color-light;
+        padding-top: $spacing-unit;
+        padding-bottom: $spacing-unit * 0.5;
         @include media-query($on-laptop) {
             @include relative-font-size(1.75);
         }
@@ -50,6 +54,7 @@
         // }
         @include relative-font-size(1.25);
         font-weight: 600;
+        padding-top: $spacing-unit;
         @include media-query($on-laptop) {
             @include relative-font-size(1.125);
         }
@@ -69,6 +74,11 @@
             background: $color-highlight;
             // background: linear-gradient(transparent 0%, $color-highlight 0%, $color-highlight 100%);
         }
+    }
+    img {
+        //width: 100%;
+        margin: $spacing-unit auto;
+        display: block;
     }
 }
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "링크복사 버튼 만들기"
 description: "클릭한번으로 링크를 복사하자"
-author: chanspark
+author: chans
 image: ""
 date: 2017-07-14 20:30:00 +0900
 tags: [wilt]

@@ -2,7 +2,7 @@
 layout: post
 title:  "지킬 검색엔진 최적화"
 description: "지킬 플러그인으로 검색엔진에 걸려들자!"
-author: chanspark
+author: chans
 image: ""
 date: 2017-08-03 20:30:00 +0900
 tags: [jekyll]
