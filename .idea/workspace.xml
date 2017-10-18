@@ -2,51 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="813968da-bdb7-461f-8ece-a671fe158eaa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_tags/mvc.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_tags/react.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_tags/seo.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_tags/javascript.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-10-15-지킬블로그-rss피드.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-28-지킬-설치-후-맥-셋업.markdown" afterPath="$PROJECT_DIR$/_posts/2017-06-28-지킬-설치-후-맥-셋업.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-29-ExpressJS-AJAX-사용기.markdown" afterPath="$PROJECT_DIR$/_posts/2017-06-29-ExpressJS-AJAX-사용기.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-04-XMLHttpRequest-와-Node-공부.markdown" afterPath="$PROJECT_DIR$/_posts/2017-07-04-XMLHttpRequest-와-Node-공부.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-04-jekyll-serve-에러-문제.markdown" afterPath="$PROJECT_DIR$/_posts/2017-07-04-jekyll-serve-에러-문제.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-05-개발-문제-접근법.markdown" afterPath="$PROJECT_DIR$/_posts/2017-07-05-개발-문제-접근법.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-06-location-함수.markdown" afterPath="$PROJECT_DIR$/_posts/2017-07-06-location-함수.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-09-지킬-페이지-분류-구현.markdown" afterPath="$PROJECT_DIR$/_posts/2017-07-09-지킬-페이지-분류-구현.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-11-달력-테이블-플러그인.markdown" afterPath="$PROJECT_DIR$/_posts/2017-07-11-달력-테이블-플러그인.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-12-카카오톡-공유버튼-만들기.markdown" afterPath="$PROJECT_DIR$/_posts/2017-07-12-카카오톡-공유버튼-만들기.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-13-크롬-자동완성-기능-제거하기.markdown" afterPath="$PROJECT_DIR$/_posts/2017-07-13-크롬-자동완성-기능-제거하기.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-14-링크복사-버튼-만들기.markdown" afterPath="$PROJECT_DIR$/_posts/2017-07-14-링크복사-버튼-만들기.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-17-페이스북-공유-버튼.markdown" afterPath="$PROJECT_DIR$/_posts/2017-07-17-페이스북-공유-버튼.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-01-맥북-개발환경-세팅.markdown" afterPath="$PROJECT_DIR$/_posts/2017-08-01-맥북-개발환경-세팅.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-02-개발-공부-사이트-모음.markdown" afterPath="$PROJECT_DIR$/_posts/2017-08-02-개발-공부-사이트-모음.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-03-jekyll-검색엔진-최적화.markdown" afterPath="$PROJECT_DIR$/_posts/2017-08-03-jekyll-검색엔진-최적화.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-04-수정된-데이터만-전송하기.markdown" afterPath="$PROJECT_DIR$/_posts/2017-08-04-수정된-데이터만-전송하기.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-07-프론트엔드-개발-공부리스트.markdown" afterPath="$PROJECT_DIR$/_posts/2017-08-07-프론트엔드-개발-공부리스트.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-08-동기-비동기-호출.markdown" afterPath="$PROJECT_DIR$/_posts/2017-08-08-동기-비동기-호출.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-08-프로세스와-스레드.markdown" afterPath="$PROJECT_DIR$/_posts/2017-08-08-프로세스와-스레드.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-10-사이트를-개발하며-봉착한-문제점들.markdown" afterPath="$PROJECT_DIR$/_posts/2017-08-10-사이트를-개발하며-봉착한-문제점들.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-10-생활코딩-공부-.markdown" afterPath="$PROJECT_DIR$/_posts/2017-08-10-생활코딩-공부-.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-12-세미나후기-고무곰님의-jsflow-강의.markdown" afterPath="$PROJECT_DIR$/_posts/2017-08-12-세미나후기-고무곰님의-jsflow-강의.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-14-네트워크-이해하기.markdown" afterPath="$PROJECT_DIR$/_posts/2017-08-14-네트워크-이해하기.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-18-MVC패턴이란.md" afterPath="$PROJECT_DIR$/_posts/2017-08-18-MVC패턴이란.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-23-Http에-대해서.markdown" afterPath="$PROJECT_DIR$/_posts/2017-08-23-Http에-대해서.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-28-브라우저-동작-원리.md" afterPath="$PROJECT_DIR$/_posts/2017-08-28-브라우저-동작-원리.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-29-Git을-배워보자.md" afterPath="$PROJECT_DIR$/_posts/2017-08-29-Git을-배워보자.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-09-15-React-Redux란.markdown" afterPath="$PROJECT_DIR$/_posts/2017-09-15-React-Redux란.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-09-21-리액트로-사이트-만들기.markdown" afterPath="$PROJECT_DIR$/_posts/2017-09-21-리액트로-사이트-만들기.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-09-23-react-last.md" afterPath="$PROJECT_DIR$/_posts/2017-09-23-react-last.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-09-27-create-calendar-with-momentjs.md" afterPath="$PROJECT_DIR$/_posts/2017-09-27-create-calendar-with-momentjs.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-10-타입별-서버-에러.md" afterPath="$PROJECT_DIR$/_posts/2017-10-10-타입별-서버-에러.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-11-try-catch.md" afterPath="$PROJECT_DIR$/_posts/2017-10-11-try-catch.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-11-안드로이드-디바이스-디버깅.md" afterPath="$PROJECT_DIR$/_posts/2017-10-11-안드로이드-디바이스-디버깅.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/chns/_page.scss" afterPath="$PROJECT_DIR$/_sass/chns/_page.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/chns/_post.scss" afterPath="$PROJECT_DIR$/_sass/chns/_post.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.md" afterPath="$PROJECT_DIR$/about.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -97,19 +56,34 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="162">
+              <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="developer.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="developer.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_tags/developer.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="72">
                 <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="javascript.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_tags/javascript.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="36">
+                <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -192,6 +166,7 @@
         <option value="$PROJECT_DIR$/_tags/react.md" />
         <option value="$PROJECT_DIR$/_tags/mvc.md" />
         <option value="$PROJECT_DIR$/_tags/seo.md" />
+        <option value="$PROJECT_DIR$/_tags/javascript.md" />
       </list>
     </option>
   </component>
@@ -202,8 +177,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -428,18 +403,18 @@
       <workItem from="1506308920034" duration="10000" />
       <workItem from="1507634924873" duration="991000" />
       <workItem from="1507712617980" duration="1313000" />
-      <workItem from="1507958472940" duration="7746000" />
+      <workItem from="1507958472940" duration="9154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16821000" />
+    <option name="totallyTimeSpent" value="18229000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10923185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08162191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -468,19 +443,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_tags/express.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="36">
-            <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-17-WILT-7월17일.markdown" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-14-WILT-7월14일.markdown" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-13-WILT-7월13일.markdown" />
@@ -720,14 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_tags/mvc.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -767,11 +721,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_tags/developer.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="72">
             <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_tags/javascript.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="36">
+            <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             <folding />
           </first_editor>
           <second_editor>
