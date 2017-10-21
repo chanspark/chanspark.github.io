@@ -308,3 +308,21 @@ pre {
 .btn-center {
 	margin: 0 auto;
 }
+
+table {
+	border: 1px solid $grey-color-light;
+	margin-bottom: $spacing-unit;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid $grey-color-light;
+	padding-left: $spacing-unit * 0.5;
+	padding-right: $spacing-unit * 0.5;
+}
+
+th {
+	border: 1px solid $grey-color-light;
+	padding-left: $spacing-unit * 0.5;
+	padding-right: $spacing-unit * 0.5;
+}

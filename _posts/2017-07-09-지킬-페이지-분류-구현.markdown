@@ -3,7 +3,7 @@ layout: post
 title:  "Jekyll Pagination"
 description: "지킬 페이지 구현"
 author: chans
-image: "20170630-1-main.jpg"
+image: "/assets/20170630-1-main.jpg"
 date:   2017-07-10 20:30:00 +0900
 tags: [jekyll]
 comments: true

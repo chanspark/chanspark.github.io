@@ -13,11 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+# jekyll-seo-tag options
 title: Chans 기술블로그
 email: pcswer@gmail.com
 description: "프론트엔드 기술블로그 사이트"
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: ""
+logo : "/assets/images/chans.png"
 url: "https://chanspark.github.io"
 author: "Chans"
 # twitter_username: jekyllrb
@@ -30,8 +31,7 @@ image: '/assets/main_photo.jpg'
 
 keep_files: [assets]
 
-# jekyll-seo-tag options
-logo : "/assets/images/chans.png"
+
 
 # Build settings
 markdown: kramdown

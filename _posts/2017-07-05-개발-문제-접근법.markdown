@@ -3,7 +3,7 @@ layout: post
 title:  "개발 문제 접근법, jQuery에 대해서"
 description: "JS, jQuery, 개발이란?"
 author: chans
-image: "default.jpg"
+image: "/assets/default.jpg"
 date:   2017-07-05 09:30:00 +0900
 tags: [wilt, life]
 comments: true

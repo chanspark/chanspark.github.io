@@ -3,7 +3,7 @@ layout: post
 title: "[React] Redux란"
 description: "리액트 공부의 난제, 리덕스"
 author: chans
-image: "/201709/0915-1.jpeg"
+image: "/assets/201709/0915-1.jpeg"
 date: 2017-09-15 20:30:00 +0900
 tags: [react, study]
 comments: true

@@ -3,7 +3,7 @@ layout: post
 title:  "ExpressJS, EJS 에서 SEO 적용하기"
 description: "JS 초짜가 살아남는법"
 author: chans
-image: "20170630-1-main.jpg"
+image: "/assets/20170630-1-main.jpg"
 date:   2017-06-30 11:30:00 +0900
 tags: [jekyll, express, ajax]
 comments: true
