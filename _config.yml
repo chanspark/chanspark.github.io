@@ -24,6 +24,9 @@ author: "Chans"
 # twitter_username: jekyllrb
 github_username: chanspark
 timezone: Asia/Seoul
+twitter:
+  username: chans_design
+
 
 asset_path: "/assets/" # assets의 경로
 # asset_path: "/assets/" # assets의 경로
@@ -82,3 +85,4 @@ social:
   name: Chans Park
   links:
     - https://github.com/chanspark
+    - https://twitter.com/chans_design
