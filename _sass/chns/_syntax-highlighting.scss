@@ -3,6 +3,7 @@
  */
 .highlight {
   background: #282c34;
+  line-height: 18px;
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
@@ -136,7 +137,7 @@
 }
 /* Name Label */
 .highlight .nl {
-  color: transparent;
+  color: #abb2bf;
   background-color: #282c34;
 }
 /* Name Namespace */
@@ -446,6 +447,10 @@
     }
     .s {
       color: #91c379;
+    }
+    .c {
+      color: #5c6370;
+      font-style: italic;
     }
   }
 }

@@ -121,7 +121,7 @@ const mapDispatchToProps = state => ({
 
 });
 
-.... codes ....
+// .... codes ....
 
 export default connect (mapStateToProps, mapDispatchToProps)(App);
 ```
@@ -130,32 +130,32 @@ export default connect (mapStateToProps, mapDispatchToProps)(App);
 ``` javascript
 // 이렇게 action을 정의 할 수 있다.
 {
-	type: 'SAVE_MONEY',
-	money	
+  type: 'SAVE_MONEY',
+  money	
 }
 
 // 요 칭구들은 함수로 action을 만드는 애들임. 이를 action creator 라고 부름.
 const save = money => ({
-    type: 'SAVE_MONEY',
-    money
+  type: 'SAVE_MONEY',
+  money
 });
 
 export default {
-    save
+  save
 }
 
 // 또는
 export const withdraw = money => ({
-    type: 'WITHDRAW_MONEY',
-    money
+  type: 'WITHDRAW_MONEY',
+  money
 });
 ```
 
 ``` javascript
-//action creator 호출방법
+// action creator 호출방법
 // action creator 를 호출해보자!
-clac: (type, money) => dispatch(
-    BankAction[type](money)
+calc: (type, money) => dispatch(
+  BankAction[type](money)
 )
 
 // BankAction[type](money)
@@ -177,20 +177,20 @@ reducer 는 보통 switchcase를 많이 사용함
 ``` javascript
 // action
 {
-	type: 'SAVE_MONEY',
-	money 
+  type: 'SAVE_MONEY',
+  money 
 }
 
 
 //reducer
 const reducer = (prevState, action) => {
-	switch(action.type) {
-		case 'SAVE_MONEY' :
-		return {
-			...
-		}
-		default ...
-	}
+  switch(action.type) {
+    case 'SAVE_MONEY' :
+    return {
+      ...
+    }
+    default ...
+  }
 }
 ```
 
