@@ -1,20 +1,143 @@
 ---
 layout: post
 title:  "카카오톡 공유버튼 만들기"
-description: "모바일 웹에서 카톡 앱으로"
+description: "모바일에서 카카오톡으로 공유하자!"
 author: chans
 image: " "
-date:   2017-07-12 20:30:00 +0900
+date:  2017-07-12 20:30:00 +0900
 tags: [wilt]
 comments: true
 ---
 
+> 완성도를 높이기 위해 2017/11/14 수정하였습니다.
+
 ## 모바일 웹에서 카카오톡 앱으로 공유하기
-[kakao developers](https://developers.kakao.com/docs/js#카카오링크-피드-템플릿-보내기)사이트에 올라와 있는 방법입니다.
-정식 API에서는 카카오 링크라고 불리우며, 흔히 쓰이는 '카카오톡으로 공유하기'기능이라고 보시면 됩니다. 단순하게 링크를 공유하는 방법이며, 카톡 앱을 열어서 특정 행동을 하게 만드는 방식의 기능은 아닙니다. 
+[kakao developers](https://developers.kakao.com/docs/js/kakaotalklink)사이트에 올라와 있는 방법입니다.
+정식 API에서는 *카카오톡 링크*라고 불리우며, 흔히 쓰이는 '카카오톡으로 공유하기'기능이라고 보시면 됩니다. 단순하게 링크를 공유하는 방법이며, 카톡 앱을 열어서 특정 행동을 하게 만드는 방식의 기능은 아닙니다. 
 이 링크를 전송하는 탬플릿이 다양하게 있어서 필요한 탬플릿을 적용하시면 되겠습니다. 특히 '웹에서 보기'와 같은 CTA 버튼이 있어서 마케팅쪽으로 활용할 수 있는 방안이 많을것으로 보입니다.
 카카오톡링크 V2가 런칭되어있는 상태이며, 기존의 V1보다 더 다양한 형태의 메시지를 전하실 수 있습니다.
 
-### 방법
-- 앱 등록 과정을 통해서 사이트 도메인을 등록해둔 상태여야합니다.
-- APP KEY를 등록한 앱의 JAVASCRIPT KEY 로 변경해 주세요
+### 기본 공유 버튼 만들기
+- 앱 등록 과정을 통해서 사이트 도메인을 등록해둔 상태여야합니다. 아래의 카카오톡 API를 불러와야합니다.
+
+``` html
+ <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+```
+
+- YOUR APP KEY를 등록한 앱의 JAVASCRIPT KEY 로 변경한 후 사용할 수 있습니다.
+
+``` html
+<script type='text/javascript'>
+  //<![CDATA[
+    // // 사용할 앱의 JavaScript 키를 설정해 주세요.
+    Kakao.init('YOUR APP KEY');
+    // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+    Kakao.Link.createDefaultButton({
+      container: '#kakao-link-btn',
+      objectType: 'feed',
+      content: {
+        title: '딸기 치즈 케익',
+        description: '#케익 #딸기 #삼평동 #카페 #분위기 #소개팅',
+        imageUrl: 'http://mud-kage.kakao.co.kr/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png',
+        link: {
+          mobileWebUrl: 'https://developers.kakao.com',
+          webUrl: 'https://developers.kakao.com'
+        }
+      },
+      social: {
+        likeCount: 286,
+        commentCount: 45,
+        sharedCount: 845
+      },
+      buttons: [
+        {
+          title: '웹으로 보기',
+          link: {
+            mobileWebUrl: 'https://developers.kakao.com',
+            webUrl: 'https://developers.kakao.com'
+          }
+        },
+        {
+          title: '앱으로 보기',
+          link: {
+            mobileWebUrl: 'https://developers.kakao.com',
+            webUrl: 'https://developers.kakao.com'
+          }
+        }
+      ]
+    });
+  //]]>
+</script>
+```
+- id가 `kakao-link-btn`인 카카오 버튼 마크업을 생성해서, 위의 스크립트 코드와 연동되게 하면 됩니다. 
+
+
+
+### 동적인 공유버튼 만들기
+동적인 링크를 보내기 위해서는 기본 템플릿에서 제공하는 파라미터들을 통해서 데이터를 넣어주면 됩니다. 예를 들어 `title`파라미터 값에 일반 string 값이 아닌 변수를 호출하고, 해당 변수에 동적으로 생성된 string 값을 넣어주면 되는 방법입니다. 저는 EJS 템플릿을 사용해서 미리 렌더링 되어있는 데이터 변수값을 대입해주는 방법을 사용하였습니다. 
+
+``` html
+<script type='text/javascript'>
+ 	// ... some code ... //
+ 	Kakao.init('YOUR APP KEY');
+    
+	var _title = "<%= title %>";
+	var _description = "<%= page.description %>"; 
+	var _button = "읽으러 가기";
+	    
+	Kakao.Link.createDefaultButton({
+	  container: '#kakao-link-btn',
+	  objectType: 'feed',
+	  content: {
+		  title: _title,
+		  description: _description,
+	    // ... some code ... //
+	  },
+	  buttons: [
+	    {
+	      title: _button,
+	      link: {
+				// ... some code ... //
+	      }
+	    }
+	  ]
+});
+</script>
+```
+
+
+### 커스텀 템플릿을 활용한 공유버튼
+[커스텀 링크 만들기](https://developers.kakao.com/docs/template/getting-started) 사이트에서 확인 할 수 있습니다. 로그인을 한 후 접속하게되면 앱에서 사용할 템플릿을 직접 꾸밀 수 있습니다. 이미지를 몇장이 보이게할지, 버튼은 몇개를 넣을지 등등을 커스터마이징 할 수 있죠. 커스터마이징 후에는 정식으로 카카오 API에 등록해서 사용하면 됩니다. 저는 커스텀 템플릿을 아래와 같이 만들었습니다. 
+
+`kakaoLink` 라는 함수를 지정해서 어느 버튼이든 클릭하면 공유가 되도록 설정하였습니다. 
+
+``` html
+<script>         
+	Kakao.init('YOUR APP KEY');
+	    
+	function kakaoLink() {
+		var _user = localStorage.getItem('user');
+		var _slug = "recipes/user=" + _user;		var _title = "<%= title %>";
+		var _description = "<%= page.description %>";
+		
+		Kakao.Link.sendCustom({
+		    templateId: 9999, // 이 템플릿 아이디가 중요합니다
+		    templateArgs: {
+		    'profile': '테스트프로필',
+		    'title': _title,
+		    'description': _description,
+		    'url': _slug,
+		    'imgFirst': 'https://cloudfront.net/<%= page.image %>',
+		    'imgSecond': 'https://cloudfront.net/<%= page.image_two %>',
+		    }
+		});
+	}
+</script>
+```
+
+저는 위와 같이 커스텀 템플릿을 만들어서 사용하고 있습니다. 간단하게 카카오톡 공유하기 버튼 만드는 방법을 포스트해보았습니다. 커스텀 템플릿을 설정하는건 좀 더 디테일한 설명이 가능하니, 추후에 시간이 나면 포스트를 업데이트 하도록 하겠습니다. 혹 포스트 내용에 문제가 있을경우 알려주세요! 감사합니다.
+
+> 중요!  
+> 커스텀 템플릿을 생성할 경우 URL 관련 파라미터 값이 정상적으로 작동하지 않을경우가 있습니다. kakao devtalk에 문의해서 아래와 같은 답변을 받았습니다.   
+> '카카오링크를 통해서 PC나 모바일 웹사이트로 이동이 필요할 경우, 다른 링크 설정의 파라미터 값을 제거해주면 됩니다.' [링크](https://devtalk.kakao.com/t/url/34873/6)
+

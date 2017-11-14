@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="813968da-bdb7-461f-8ece-a671fe158eaa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/201710/20171015-1.jpeg" afterPath="$PROJECT_DIR$/assets/201710/20171015-1.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/201710/20171015-2.png" afterPath="$PROJECT_DIR$/assets/201710/20171015-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/201710/20171015-3.png" afterPath="$PROJECT_DIR$/assets/201710/20171015-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/201710/20171015-4.png" afterPath="$PROJECT_DIR$/assets/201710/20171015-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/201710/20171015-5.png" afterPath="$PROJECT_DIR$/assets/201710/20171015-5.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-09-15-React-Redux란.markdown" afterPath="$PROJECT_DIR$/_posts/2017-09-15-React-Redux란.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-15-지킬블로그-검색엔진-최적화.md" afterPath="$PROJECT_DIR$/_posts/2017-10-15-지킬블로그-검색엔진-최적화.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/chns/_base.scss" afterPath="$PROJECT_DIR$/_sass/chns/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/chns/_syntax-highlighting.scss" afterPath="$PROJECT_DIR$/_sass/chns/_syntax-highlighting.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,8 +73,8 @@
       <file leaf-file-name="_post.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/chns/_post.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+            <state relative-caret-position="34">
+              <caret line="89" column="1" lean-forward="false" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -214,8 +203,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -455,18 +444,18 @@
       <workItem from="1507634924873" duration="991000" />
       <workItem from="1507712617980" duration="1313000" />
       <workItem from="1507958472940" duration="9178000" />
-      <workItem from="1508579077977" duration="6037000" />
+      <workItem from="1508579077977" duration="6549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24290000" />
+    <option name="totallyTimeSpent" value="24802000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17336152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12954186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1086,8 +1075,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/chns/_post.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+        <state relative-caret-position="34">
+          <caret line="89" column="1" lean-forward="false" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
           <folding />
         </state>
       </provider>
