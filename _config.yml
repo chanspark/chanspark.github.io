@@ -38,8 +38,8 @@ keep_files: [assets]
 
 # Build settings
 markdown: kramdown
-mgems:
-  - jekyll-feed
+# mgems:
+#   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -47,7 +47,7 @@ gems:
   - jekyll-seo-tag 
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-feed
+  # - jekyll-feed
 #   - jekyll-autoprefixer
 
 # 태그 기능
